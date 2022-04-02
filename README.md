@@ -2,7 +2,7 @@
 Erstellung eines digitalen Assistenten im Rahmen des Moduls "Agiles Projektmanagement" im 2. Semester.
 
 ## Gruppenmitglieder
-Anna-Lena Kubat @annalenakubat
+Anna-Lena Kubat @annalenakbt
 
 Antje Schmollinger @Antje-Claudia
 
