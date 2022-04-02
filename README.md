@@ -10,7 +10,7 @@ Julian Fleischmann @julianfleischmann
 
 Olga Merz @olgaluisemerz
 
-Rosanna Wagner @
+Rosanna Wagner @WagnerRosanna
 
 ## Branches
 - master
