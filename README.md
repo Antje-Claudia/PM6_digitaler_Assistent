@@ -15,7 +15,7 @@ Rosanna Wagner @WagnerRosanna
 ## Branches
 - master
   - Wir pushen oder mergen NIE sofort in den master-Branch!
-  - Bevor in den master-Branch gepusht / gemergt wird, muss das Testing auf dem develop-Branch komplett abgeschlossen sein und ein Pull-Request erstellt werden, den alle Teammitglieder als genehmigt markiert haben
+  - Bevor in den master-Branch gepusht / gemergt wird, muss das Testing auf dem develop-Branch komplett abgeschlossen sein und ein Pull-Request erstellt werden, den mindestens 3 Teammitglieder als genehmigt markiert haben
   - Unser master-Branch enthält zu jedem Zeitpunkt eine getestete, funktionsfähige, laufende Produktions-Anwendung!
 
 - develop
