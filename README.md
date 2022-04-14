@@ -1,6 +1,18 @@
 # PM6_digitaler_Assistent
 Erstellung eines digitalen Assistenten im Rahmen des Moduls "Agiles Projektmanagement" im 2. Semester.
 
+## Arbeiten mit dem Bot in der Shell
+### Übersicht der Befehle
+https://docs.google.com/document/d/1rCT-cqm6D6KQsQPAex5-KUTHAzmBIQCc5bYN0xK_Nkk/edit#
+### Server für die Storefront vorbereiten
+Hier die Befehle nach der Reihe aufgelistet
+```shell
+conda activate installingrasa
+rasa train
+rasa run -m models --enable-api --cors "*"
+```
+Anschließend muss der Server für die index.html gestartet werden (Bspw. in VS Code über den integrierten Webserver)
+
 ## Gruppenmitglieder
 Anna-Lena Kubat @annalenakbt
 
