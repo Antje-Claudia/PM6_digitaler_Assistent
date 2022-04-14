@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - asking_notion
 
 responses:
   utter_greet:
@@ -28,6 +29,9 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_notion_help:
+  - text: "Yes, you can find something at https://www.notion.so/help"
 
 session_config:
   session_expiration_time: 60
