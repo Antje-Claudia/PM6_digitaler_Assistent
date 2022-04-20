@@ -13,6 +13,12 @@ rasa run -m models --enable-api --cors "*"
 ```
 Anschließend muss der Server für die index.html gestartet werden (Bspw. in VS Code über den integrierten Webserver)
 
+## Docker Befehle
+### Befehle 
+```shell
+docker build . # Optional kann hier noch ein Name angegeben werden, wie das Docker-Image heißen soll
+```
+
 ## Gruppenmitglieder
 Anna-Lena Kubat @annalenakbt
 
