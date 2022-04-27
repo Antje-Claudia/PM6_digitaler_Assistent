@@ -16,7 +16,9 @@ Anschließend muss der Server für die index.html gestartet werden (Bspw. in VS 
 ## Docker Befehle
 ### Befehle 
 ```shell
-docker build . # Optional kann hier noch ein Name angegeben werden, wie das Docker-Image heißen soll
+docker build . grpsix/rasabot # Optional kann hier noch ein Name angegeben werden, wie das Docker-Image heißen soll. Hier ist grpsix/rasabot vergeben worden
+docker run -it -p 8080:8080 grpsix/rasabot # Portweiterleitung für den Browser aktivieren
+docker run -it -p 8080:8080 grpsix/rasabot shell # hier wird noch die Shell mit angegeben (ist wie in einem lokalen Terminal --> wird aber hier weitergegeben an den Container)
 ```
 
 ## Gruppenmitglieder
