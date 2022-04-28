@@ -40,6 +40,13 @@ docker run -it -p 8080:8080 -v $(pwd):/app rasa/rasa run --enable-api --port 808
 docker run -it -p 8080:8080 -v ${pwd}:/app rasa/rasa run --enable-api --port 8080
 ```
 
+#### Info:
+- Container können in Dockerhub per Tag spezifisch heruntergeladen werden
+- Bsp. repo/container:tag (rasa/rasa:2.8.0-full)
+- --> hier sollten alle die gleiche RASA-Version haben! (gibt Abhängigkeiten zur NLU)
+- --> wir verwenden die Version 3.1 (Also kompatibel mit 3.0<)
+- Version kann getestet werden, indem localhost:8080/version aufgerufen wird
+
 ## Gruppenmitglieder
 Anna-Lena Kubat @annalenakbt
 
