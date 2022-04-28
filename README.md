@@ -14,11 +14,30 @@ rasa run -m models --enable-api --cors "*"
 Anschließend muss der Server für die index.html gestartet werden (Bspw. in VS Code über den integrierten Webserver)
 
 ## Docker Befehle
-### Befehle 
-```shell
+### Befehle für einen eigenen Container
+```shell 
 docker build . grpsix/rasabot # Optional kann hier noch ein Name angegeben werden, wie das Docker-Image heißen soll. Hier ist grpsix/rasabot vergeben worden
 docker run -it -p 8080:8080 grpsix/rasabot # Portweiterleitung für den Browser aktivieren
 docker run -it -p 8080:8080 grpsix/rasabot shell # hier wird noch die Shell mit angegeben (ist wie in einem lokalen Terminal --> wird aber hier weitergegeben an den Container)
+```
+
+### Befehle für den empfohlenen Pre-Built Container von RASA
+Arbeiten mit einem vorgefertigten RASA-Container in Docker
+```shell
+# 1. Official Rasa container download
+docker run -it -p 8080:8080 rasa/rasa
+
+# 2. Run the official rasa with the API
+docker run -it -p 8080:8080 rasa/rasa run --enable-api
+
+# 3. Fehler entsteht --> Grund ist, dass in dem offiziellen RASA-Container kein trainiertes NLU-Model vorhanden ist. Dieses muss erst in den Container gebracht werden
+
+# 4. Container verlassen
+
+# 5. Dem Container externe Laufwerke hinzufügen, sowie die Port-Weiterleitung einrichten
+docker run -it -p 8080:8080 -v $(pwd):/app rasa/rasa run --enable-api --port 8080
+# Bzw. mit Windows Powershell
+docker run -it -p 8080:8080 -v ${pwd}:/app rasa/rasa run --enable-api --port 8080
 ```
 
 ## Gruppenmitglieder
