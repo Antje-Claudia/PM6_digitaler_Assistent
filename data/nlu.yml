@@ -95,3 +95,19 @@ nlu:
     - I need help in notion
     - Notion
     - Can you help me with notion?
+
+- intent: start_tutorial
+  examples: |
+    - start tutorial
+    - beginner tutorial
+    - easy functions
+    - tutorial
+    - basics
+    - basic functions
+    - overview notion
+    - use notion
+    - How can I use notion?
+    - my first step
+    - first steps
+    - first time using notion
+    - overview

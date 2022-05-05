@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - asking_notion
+  - start_tutorial
 
 responses:
   utter_greet:
@@ -32,6 +33,12 @@ responses:
 
   utter_notion_help:
   - text: "Yes, you can find something at https://www.notion.so/help"
+
+  utter_welcome_start_tutorial:
+  - text: "You would like to take your first steps in Notion? Welcome to YOUR start tutorial!"
+
+  utter_request_basic_functions:
+  - text: "At first I would like to show you an overview over the top 3 basic functions. Please type basic functions to get to know them."
 
 session_config:
   session_expiration_time: 60

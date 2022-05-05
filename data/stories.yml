@@ -33,3 +33,10 @@ stories:
   steps:
   - intent: asking_notion
   - action: utter_notion_help
+
+- story: start tutorial
+  steps:
+  - intent: start_tutorial
+  - action: utter_welcome_start_tutorial
+  - action: utter_request_basic_functions
+  - intent: basic_function
