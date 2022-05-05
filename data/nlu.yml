@@ -95,3 +95,29 @@ nlu:
     - I need help in notion
     - Notion
     - Can you help me with notion?
+
+- intent: operating_help
+  examples: |
+    - How can I use you?
+    - How can I use this bot?
+    - How can I use this Bot?
+    - How can you help me?
+    - How can I operate with you?
+    - How can I operate with this Bot?
+    - Which functions do you have?
+    - Which functions does this bot have?
+    - Can you explain the operation to me?
+    - I need help with the operation
+    - I need help with operation
+    - How can I start?
+    - What can I ask you?
+    - What can you do for me?
+    - How does this works?
+    - How do you work?
+    - What options do I have?
+    - Can you tell me my options?
+    - What are my options?
+    - My options
+    - my options
+    - operation
+    - service

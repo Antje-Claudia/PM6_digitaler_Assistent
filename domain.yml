@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - asking_notion
+  - operating_help
 
 responses:
   utter_greet:
@@ -32,6 +33,9 @@ responses:
 
   utter_notion_help:
   - text: "Yes, you can find something at https://www.notion.so/help"
+
+  utter_operating_help:
+  - text: "Yes, I can give you an overview. You need help in notion? Type -Notion- and I will help."
 
 session_config:
   session_expiration_time: 60

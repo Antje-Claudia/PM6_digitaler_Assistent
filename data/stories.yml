@@ -33,3 +33,8 @@ stories:
   steps:
   - intent: asking_notion
   - action: utter_notion_help
+
+- story: operation
+  steps:
+  - intent: operating_help
+  - action: utter_operating_help
