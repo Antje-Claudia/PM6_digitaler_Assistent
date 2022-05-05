@@ -37,4 +37,5 @@ stories:
 - story: operation
   steps:
   - intent: operating_help
-  - action: utter_operating_help
+  - action: utter_operating_help_one
+  - action: utter_operating_help_two

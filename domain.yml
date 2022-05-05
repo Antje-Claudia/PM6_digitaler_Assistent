@@ -34,8 +34,11 @@ responses:
   utter_notion_help:
   - text: "Yes, you can find something at https://www.notion.so/help"
 
-  utter_operating_help:
-  - text: "Yes, I can give you an overview. You need help in notion? Type -Notion- and I will help."
+  utter_operating_help_one:
+  - text: "I can give you an overview:"
+
+  utter_operating_help_two:
+  - text: "▪ You need help in notion?\n \n--> Type -Notion- and I will help you."
 
 session_config:
   session_expiration_time: 60
