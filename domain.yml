@@ -38,7 +38,7 @@ responses:
   - text: "I can give you an overview:"
 
   utter_operating_help_two:
-  - text: "▪ You need help in notion?\n \n--> Type -Notion- and I will help you."
+  - text: "◼ You are new to Notion?\n \n--> Type -start tutorial- and I will tell you something about the basic functions.\n \n◼ You need help in Notion?\n \n--> Type -Notion- and I will help you.\n \n◼ You feel a little lost in Notion?\n \n--> Type -structure- and I will help you.\n \n◼ You want to know, which are the most important functions?\n \n--> Type -basics- and I will show you.\n \n ◼ You want to create a new page in Notion?\n \n--> Type -new page- and I will explain it to you.\n \n ◼git  You want to use a template for a page?\n \n--> Type -templates- and I can show you!"
 
 session_config:
   session_expiration_time: 60
