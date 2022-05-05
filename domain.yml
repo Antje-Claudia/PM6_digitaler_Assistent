@@ -35,7 +35,7 @@ responses:
   - text: "Yes, you can find something at https://www.notion.so/help"
 
   utter_userrole_help:
-  - text: "Hey, which User Role do you have? Depending on the User Role you will have a different access to free usage and other Features. To get more infornations write one of the following statements, depending on your role. "Student", "Company", "small Team", "Personal User""
+  - text: "Hey, which User Role do you have?"
 
 session_config:
   session_expiration_time: 60
