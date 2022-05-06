@@ -95,3 +95,12 @@ nlu:
     - I need help in notion
     - Notion
     - Can you help me with notion?
+
+- intent: delete_account
+  examples: |
+    - delete account
+    - change account
+    - Can I delete my account?
+    - remove account
+    - other account
+    - I want another account
