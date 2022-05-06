@@ -45,9 +45,6 @@ responses:
   utter_request_basic_functions:
   - text: "At first I would like to show you an overview over the top 3 basic functions. Please type -basic functions- to get to know them."
 
-  utter_request_notion_information:
-  - text: "Or do you need information on notion itself? Then please type -overview-."
-
   utter_list_basic_functions:
   - text: "The top 3 basic functions are: 1. new page, 2. structure of notion, 3. templates! Please tell me about which element you would like to know more."
 
@@ -94,18 +91,9 @@ responses:
   - text: "There are different products for different requests, like notion for enterprise, notion for small business or notion for education."
 
   utter_overview_notion3:
-  - text: "I reccomend a visit on the notion website. You can …"
+  - text: "You can find information in the blog or help center, start your work witj webinars and tutorials or explore the nearly endless world of templates!"
 
   utter_overview_notion4:
-  - text: "… find information in the blog or help center!"
-
-  utter_overview_notion5:
-  - text: "… start your work with webinars and tutorials!"
-
-  utter_overview_notion6:
-  - text: "… explore the nearly endless world of templates!"
-
-  utter_overview_notion7:
   - text: "Sounds good? Then visit https://www.notion.so/."
 
 session_config:
