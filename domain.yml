@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - asking_notion
+  - delete_account
 
 responses:
   utter_greet:
@@ -32,6 +33,18 @@ responses:
 
   utter_notion_help:
   - text: "Yes, you can find something at https://www.notion.so/help"
+
+  utter_instructions_remove_account1:
+  - text: "Go to -Setting & Members- and click -My account- at the top of the sidebar."
+
+  utter_instructions_remove_account2:
+  - text: "Scroll down to the danger zone. Click -delete my account-."
+
+  utter_instructions_remove_account3:
+  - text: "Type in your email to confirm. Click on -permanently delete account and xy workspaces-."
+
+  utter_instructions_remove_account4:
+  - text: "I am very sorry to see you go…"
 
 session_config:
   session_expiration_time: 60
