@@ -11,19 +11,10 @@ intents:
   - asking_notion
   - start_tutorial_notion
   - basic_functions_notion
-  - list_basic_functions
-  - tutorial_new_page1
-  - tutorial_new_page2
-  - tutorial_new_page3
-  - tutorial_structure1
-  - tutorial_structure2
-  - tutorial_structure3
-  - tutorial_structure4
-  - tutorial_templates1
-  - tutorial_templates2
-  - tutorial_templates3
-  - tutorial_templates4
-  - tutorial_templates5
+  - overview
+  - new_page
+  - structure_of_notion
+  - templates
 
 responses:
   utter_greet:
@@ -52,7 +43,10 @@ responses:
   - text: "You would like to take your first steps in Notion? Welcome to YOUR start tutorial!"
 
   utter_request_basic_functions:
-  - text: "At first I would like to show you an overview over the top 3 basic functions. Please type basic functions to get to know them."
+  - text: "At first I would like to show you an overview over the top 3 basic functions. Please type -basic functions- to get to know them."
+
+  utter_request_notion_information:
+  - text: "Or do you need information on notion itself? Then please type -overview-."
 
   utter_list_basic_functions:
   - text: "The top 3 basic functions are: 1. new page, 2. structure of notion, 3. templates! Please tell me about which element you would like to know more."
@@ -92,6 +86,27 @@ responses:
 
   utter_tutorial_templates5:
   - text: "When you want to learn even more about templates, don't hesitate to visit https://www.notion.so/help/category/template-gallery."
+
+  utter_overview_notion1:
+  - text: "On notion you can take notes, track and organize your daily life, work together with other users and also build websites."
+
+  utter_overview_notion2:
+  - text: "There are different products for different requests, like notion for enterprise, notion for small business or notion for education."
+
+  utter_overview_notion3:
+  - text: "I reccomend a visit on the notion website. You can …"
+
+  utter_overview_notion4:
+  - text: "… find information in the blog or help center!"
+
+  utter_overview_notion5:
+  - text: "… start your work with webinars and tutorials!"
+
+  utter_overview_notion6:
+  - text: "… explore the nearly endless world of templates!"
+
+  utter_overview_notion7:
+  - text: "Sounds good? Then visit https://www.notion.so/."
 
 session_config:
   session_expiration_time: 60

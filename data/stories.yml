@@ -34,13 +34,29 @@ stories:
   - intent: asking_notion
   - action: utter_notion_help
 
-- story: start tutorial
+- story: start tutorial functions
   steps:
   - intent: start_tutorial_notion
   - action: utter_welcome_start_tutorial
   - action: utter_request_basic_functions
+  - action: utter_request_notion_information
   - intent: basic_functions_notion
   - action: utter_list_basic_functions
+
+- story: start tutorial overview
+  steps:
+  - intent: start_tutorial_notion
+  - action: utter_welcome_start_tutorial
+  - action: utter_request_basic_functions
+  - action: utter_request_notion_information
+  - intent: overview
+  - action: utter_overview_notion1
+  - action: utter_overview_notion2
+  - action: utter_overview_notion3
+  - action: utter_overview_notion4
+  - action: utter_overview_notion5
+  - action: utter_overview_notion6
+  - action: utter_overview_notion7
 
 - story: start tutorial new page
   steps:

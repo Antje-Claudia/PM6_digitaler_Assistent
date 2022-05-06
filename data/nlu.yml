@@ -104,13 +104,11 @@ nlu:
     - tutorial
     - basics
     - basic functions
-    - overview notion
     - use notion
     - How can I use notion?
     - my first step
     - first steps
     - first time using notion
-    - overview
 
 - intent: basic_functions_notion
   examples: |
@@ -147,3 +145,11 @@ nlu:
     - pages ready for use
     - 3.
     - 3
+
+- intent: overview
+  examples: |
+    - overview
+    - What is notion?
+    - What can I do?
+    - How do I use notion?
+    - Tell me about notion
