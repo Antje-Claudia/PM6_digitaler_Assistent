@@ -33,3 +33,8 @@ stories:
   steps:
   - intent: asking_notion
   - action: utter_notion_help
+
+- story: restore the account
+  steps:
+  - intent: restore_account
+  - action: utter_restore_account

@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - asking_notion
+  - restore_account
 
 responses:
   utter_greet:
@@ -32,6 +33,9 @@ responses:
 
   utter_notion_help:
   - text: "Yes, you can find something at https://www.notion.so/help"
+
+  utter_restore_account:
+  - text: "Notion only saves your data for 30 days after the account was deleted. After that it isn`t possible to restore the account. \n \n (If you have requested, that the data be deleted immediately, it is also not possible to restore the account.) \n\n How it works:\n \n Just send an E-Mail to the Notion Community Support Team *(team@makenotion.com)* from that E-Mail-Adress, which was connected with your Notion-Account. Explain the problem and tell them, that you want to restore your account. They will help you. "  
 
 session_config:
   session_expiration_time: 60

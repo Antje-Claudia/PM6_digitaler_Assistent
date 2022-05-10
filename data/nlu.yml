@@ -95,3 +95,12 @@ nlu:
     - I need help in notion
     - Notion
     - Can you help me with notion?
+
+- intent: restore_account
+  examples: |  
+    -	Can I restore my account?
+    -	How can I restore my account?
+    -	Can you help me to restore my account?
+    - I want to restore my account
+    -	restore my account
+    -	restore my old account
