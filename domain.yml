@@ -10,6 +10,10 @@ intents:
   - bot_challenge
   - asking_notion
   - asking_userrole
+  - userrole_personalUser
+  - userrole_profesionalUser
+  - userrole_smallTeam
+  - userrole_company
 
 responses:
   utter_greet:
@@ -35,7 +39,20 @@ responses:
   - text: "Yes, you can find something at https://www.notion.so/help"
 
   utter_userrole_help:
-  - text: "Hey, which User Role do you have?\n\n Depending on the User Role you will have a different access to our Features.\n\n To get more infornations write one of the following statements, depending on your role.\n\n -Personal User-\n\n -Profesionel User-\n\n -small Team-\n\n -Company-"
+  - text: "Hey, which User Role do you have?\n\n Depending on the User Role you will have a different access to our Features.\n\n To get more infornations write one of the following statements, depending on your role.\n\n -Personal User-\n\n -Profesional User-\n\n -small Team-\n\n -Company-"
+
+  utter_userrole_personalUser:
+  - text: "Personal User"
+
+  utter_userrole_profesionalUser:
+  - text: "Profesional User"
+
+  utter_userrole_smallTeam:
+  - text: "small Team "
+
+  utter_userrole_company:
+  - text: "Company"
+
 
 session_config:
   session_expiration_time: 60

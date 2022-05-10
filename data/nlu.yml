@@ -101,7 +101,25 @@ nlu:
     - User Role 
     - Payment
     - Can you tell me the benefits for my User Role?
-    - I am a Student
+    - I am a in a Team
     - I am a private user
     - I work in a company
     - Do I get a sale?
+    - Is Notion free?
+
+- intent: userrole_personalUser
+  examples: |
+    - Personal User
+    - Standard User 
+
+- intent: userrole_profesionalUser
+  examples: |
+    - Profesional User
+
+- intent: userrole_smallTeam
+  examples: |
+    - small Team
+
+- intent: userrole_company
+  examples: |
+    - Company
