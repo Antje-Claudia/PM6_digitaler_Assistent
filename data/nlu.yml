@@ -96,6 +96,34 @@ nlu:
     - Notion
     - Can you help me with notion?
 
+- intent: asking_userrole
+  examples: |
+    - User Role 
+    - Payment
+    - Can you tell me the benefits for my User Role?
+    - I am a in a Team
+    - I am a private user
+    - I work in a company
+    - Do I get a sale?
+    - Is Notion free?
+
+- intent: userrole_personalUser
+  examples: |
+    - Personal User
+    - Standard User 
+
+- intent: userrole_profesionalUser
+  examples: |
+    - Profesional User
+
+- intent: userrole_smallTeam
+  examples: |
+    - small Team
+
+- intent: userrole_company
+  examples: |
+    - Company
+    
 - intent: delete_account
   examples: |
     - delete account
@@ -162,4 +190,3 @@ nlu:
     - What can I do?
     - How do I use notion?
     - Tell me about notion
-

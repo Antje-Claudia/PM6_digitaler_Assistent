@@ -33,6 +33,34 @@ stories:
   steps:
   - intent: asking_notion
   - action: utter_notion_help
+  
+- story: asking for userrole (Personal User)
+  steps:
+  - intent: asking_userrole
+  - action: utter_userrole_help
+  - intent: userrole_personalUser
+  - action: utter_userrole_personalUser
+
+- story: asking for userrole (Profesional User)
+  steps:
+  - intent: asking_userrole
+  - action: utter_userrole_help
+  - intent: userrole_profesionalUser
+  - action: utter_userrole_profesionalUser
+
+- story: asking for userrole (small Team)
+  steps:
+  - intent: asking_userrole
+  - action: utter_userrole_help
+  - intent: userrole_smallTeam
+  - action: utter_userrole_smallTeam
+
+- story: asking for userrole (Company)
+  steps:
+  - intent: asking_userrole
+  - action: utter_userrole_help
+  - intent: userrole_company
+  - action: utter_userrole_company
 
 - story: delete account
   steps:
