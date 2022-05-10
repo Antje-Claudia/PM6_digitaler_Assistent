@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - asking_notion
+  - operating_help
   - asking_userrole
   - userrole_personalUser
   - userrole_profesionalUser
@@ -44,6 +45,12 @@ responses:
 
   utter_notion_help:
   - text: "Yes, you can find something at https://www.notion.so/help"
+
+  utter_operating_help_one:
+  - text: "You can ask me questions about Notion and I try to help you.\n \n Here are four examples, what you could ask me:"
+
+  utter_operating_help_two:
+  - text: "◼ You are new to Notion?\n \n--> Type *-start tutorial-* and I will tell you something about the basic functions.\n \n◼ You feel a little lost in Notion?\n \n--> Type *-structure-* and I will help you.\n \n◼ You want to create a new page in Notion?\n \n--> Type *-new page-* and I will explain it to you.\n \n ◼ You want to use a template for a page?\n \n--> Type *-templates-* and I can show you!"
 
   utter_userrole_help:
   - text: "Hey, which User Role do you have?\n\nDepending on the User Role you will have a different access to our Features.\n\n To get more informations write one of the following statements, depending on your role.\n\n -Personal User-\n\n -Profesional User-\n\n -small Team-\n\n -Company-"
