@@ -33,3 +33,43 @@ stories:
   steps:
   - intent: asking_notion
   - action: utter_notion_help
+
+- story: overview
+  steps:
+  - intent: overview
+  - action: utter_overview_notion1
+  - action: utter_overview_notion2
+  - action: utter_overview_notion3
+  - action: utter_overview_notion4
+
+- story: start tutorial
+  steps:
+  - intent: start_tutorial_notion
+  - action: utter_welcome_start_tutorial
+  - action: utter_request_basic_functions
+  - intent: basic_functions_notion
+  - action: utter_list_basic_functions
+
+- story: start tutorial new page
+  steps:
+  - intent: new_page
+  - action: utter_tutorial_new_page1
+  - action: utter_tutorial_new_page2
+  - action: utter_tutorial_new_page3
+
+- story: start tutorial structure of notion
+  steps:
+  - intent: structure_of_notion
+  - action: utter_tutorial_structure1
+  - action: utter_tutorial_structure2
+  - action: utter_tutorial_structure3
+  - action: utter_tutorial_structure4
+
+- story: start tutorial templates
+  steps:
+  - intent: templates
+  - action: utter_tutorial_templates1
+  - action: utter_tutorial_templates2
+  - action: utter_tutorial_templates3
+  - action: utter_tutorial_templates4
+  - action: utter_tutorial_templates5

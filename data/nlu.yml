@@ -95,3 +95,61 @@ nlu:
     - I need help in notion
     - Notion
     - Can you help me with notion?
+
+- intent: start_tutorial_notion
+  examples: |
+    - start tutorial
+    - beginner tutorial
+    - easy functions
+    - tutorial
+    - basics
+    - basic functions
+    - use notion
+    - How can I use notion?
+    - my first step
+    - first steps
+    - first time using notion
+
+- intent: basic_functions_notion
+  examples: |
+    - basic function
+    - basic functions
+    - functions
+    - basics
+
+- intent: new_page
+  examples: |
+    - new page
+    - new
+    - page
+    - create new page
+    - use pages
+    - How do I create a new page?
+    - 1.
+    - 1
+
+- intent: structure_of_notion
+  examples: |
+    - structure
+    - structure of notion
+    - 2.
+    - 2
+    - blocks
+
+- intent: templates
+  examples: |
+    - templates
+    - How do I use templates?
+    - Are there templates?
+    - structured pages
+    - pages ready for use
+    - 3.
+    - 3
+
+- intent: overview
+  examples: |
+    - overview
+    - What is notion?
+    - What can I do?
+    - How do I use notion?
+    - Tell me about notion
