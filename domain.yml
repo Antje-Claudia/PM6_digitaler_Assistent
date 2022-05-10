@@ -14,6 +14,13 @@ intents:
   - userrole_profesionalUser
   - userrole_smallTeam
   - userrole_company
+  - delete_account
+  - start_tutorial_notion
+  - basic_functions_notion
+  - overview
+  - new_page
+  - structure_of_notion
+  - templates
 
 responses:
   utter_greet:
@@ -53,6 +60,74 @@ responses:
   utter_userrole_company:
   - text: "Company\n\n- Contact the sales team for the price\n \n- Everything in small Team\n \n- SAML SSO\n \n- Advanced security & controls\n \n- Custom contract\n \n- Unlimited Version history\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
 
+  utter_instructions_remove_account1:
+  - text: "Go to -Setting & Members- and click -My account- at the top of the sidebar."
+
+  utter_instructions_remove_account2:
+  - text: "Scroll down to the danger zone. Click -delete my account-."
+
+  utter_instructions_remove_account3:
+  - text: "Type in your email to confirm. Click on -permanently delete account and xy workspaces-."
+
+  utter_instructions_remove_account4:
+  - text: "I am very sorry to see you go…"
+
+  utter_welcome_start_tutorial:
+  - text: "You would like to take your first steps in Notion? Welcome to YOUR start tutorial!"
+
+  utter_request_basic_functions:
+  - text: "At first I would like to show you an overview over the top 3 basic functions. Please type -basic functions- to get to know them."
+
+  utter_list_basic_functions:
+  - text: "The top 3 basic functions are: 1. new page, 2. structure of notion, 3. templates! Please tell me about which element you would like to know more."
+
+  utter_tutorial_new_page1:
+  - text: "To create a new page click on +Add a page, in the left menu bar."
+
+  utter_tutorial_new_page2:
+  - text: "Now, a new, blank page is created. Add a title to the line untitled and press enter."
+
+  utter_tutorial_new_page3:
+  - text: "Your page is now created and you can fill it with your personal content! If you need more information please visit https://www.notion.so/help/guides/creating-a-page!"
+
+  utter_tutorial_structure1:
+  - text: "Did you know that notion is structured in blocks? You can see am overview when you type a slash."
+
+  utter_tutorial_structure2:
+  - text: "Why don't you try to use some blocks by yourself?"
+
+  utter_tutorial_structure3:
+  - text: "To do so click on an element in the list, which appears after you type the slash."
+
+  utter_tutorial_structure4:
+  - text: "You need more information about the structure? I reccomend to visit https://www.notion.so/help/what-is-a-block!"
+
+  utter_tutorial_templates1:
+  - text: "There are two ways for using a template:"
+
+  utter_tutorial_templates2:
+  - text: "1. You click on templates in the left menu bar."
+
+  utter_tutorial_templates3:
+  - text: "2. While creating a new page, you can choose templates after you choose your title."
+
+  utter_tutorial_templates4:
+  - text: "There are free and paid templates. You can choose them in the template gallery on https://www.notion.so/templates!"
+
+  utter_tutorial_templates5:
+  - text: "When you want to learn even more about templates, don't hesitate to visit https://www.notion.so/help/category/template-gallery."
+
+  utter_overview_notion1:
+  - text: "On notion you can take notes, track and organize your daily life, work together with other users and also build websites."
+
+  utter_overview_notion2:
+  - text: "There are different products for different requests, like notion for enterprise, notion for small business or notion for education."
+
+  utter_overview_notion3:
+  - text: "You can find information in the blog or help center, start your work witj webinars and tutorials or explore the nearly endless world of templates!"
+
+  utter_overview_notion4:
+  - text: "Sounds good? Then visit https://www.notion.so/."
 
 session_config:
   session_expiration_time: 60
