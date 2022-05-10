@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - asking_notion
+  - delete_account
   - start_tutorial_notion
   - basic_functions_notion
   - overview
@@ -38,6 +39,18 @@ responses:
 
   utter_notion_help:
   - text: "Yes, you can find something at https://www.notion.so/help"
+
+  utter_instructions_remove_account1:
+  - text: "Go to -Setting & Members- and click -My account- at the top of the sidebar."
+
+  utter_instructions_remove_account2:
+  - text: "Scroll down to the danger zone. Click -delete my account-."
+
+  utter_instructions_remove_account3:
+  - text: "Type in your email to confirm. Click on -permanently delete account and xy workspaces-."
+
+  utter_instructions_remove_account4:
+  - text: "I am very sorry to see you go…"
 
   utter_welcome_start_tutorial:
   - text: "You would like to take your first steps in Notion? Welcome to YOUR start tutorial!"

@@ -34,6 +34,14 @@ stories:
   - intent: asking_notion
   - action: utter_notion_help
 
+- story: delete account
+  steps:
+  - intent: delete_account
+  - action: utter_instructions_remove_account1
+  - action: utter_instructions_remove_account2
+  - action: utter_instructions_remove_account3
+  - action: utter_instructions_remove_account4
+
 - story: overview
   steps:
   - intent: overview

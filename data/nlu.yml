@@ -96,6 +96,15 @@ nlu:
     - Notion
     - Can you help me with notion?
 
+- intent: delete_account
+  examples: |
+    - delete account
+    - change account
+    - Can I delete my account?
+    - remove account
+    - other account
+    - I want another account
+
 - intent: start_tutorial_notion
   examples: |
     - start tutorial
@@ -153,3 +162,4 @@ nlu:
     - What can I do?
     - How do I use notion?
     - Tell me about notion
+
