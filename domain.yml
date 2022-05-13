@@ -151,7 +151,7 @@ responses:
   - text: "Scroll down until you reach -media-. As you will see, these types of media can be used:"
 
   utter_information_media4:
-  - text: "1. image\n \n2. Web bookmark\n \n3. Video\n \n4. Audio\n \n5. Code\n \n6. File"
+  - text: "1. Image\n \n2. Web bookmark\n \n3. Video\n \n4. Audio\n \n5. Code\n \n6. File"
 
   utter_information_media5:
   - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
