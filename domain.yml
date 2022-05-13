@@ -26,7 +26,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Howdy! Great to see you. If you would like to get some help enter 'start tutorial'. Hope you have some fun!"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
