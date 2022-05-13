@@ -23,6 +23,7 @@ intents:
   - new_page
   - structure_of_notion
   - templates
+  - use_media
 
 responses:
   utter_greet:
@@ -139,6 +140,21 @@ responses:
 
   utter_overview_notion4:
   - text: "Sounds good? Then visit https://www.notion.so/."
+
+  utter_information_media1:
+  - text: "Great, you would like to use media in Notion! Should I give you some advice how to do so?"
+
+  utter_information_media2:
+  - text: "Go on your page and type a slash. You will get some information which functions are available."
+
+  utter_information_media3:
+  - text: "Scroll down until you reach -media-. As you will see, these types of media can be used:"
+
+  utter_information_media4:
+  - text: "1. image\n \n2. Web bookmark\n \n3. Video\n \n4. Audio\n \n5. Code\n \n6. File"
+
+  utter_information_media5:
+  - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
 
 session_config:
   session_expiration_time: 60
