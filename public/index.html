@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>My Notion Chat</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/main.css">
+  <title>Notion Assistant</title>
 </head>
+
 <body>
-    <h1>Welcome to the Notion Chatbot!</h1>
-    <h2>This site is currently in development mode!</h2>
-    <script>!(function () {
-        let e = document.createElement("script"),
-          t = document.head || document.getElementsByTagName("head")[0];
-        (e.src =
-          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
-          // Replace 1.x.x with the version that you want
-          (e.async = !0),
-          (e.onload = () => {
-            window.WebChat.default(
-              {
-                initPayload: '/greet',
-                customData: { language: "en" },
-                // socketUrl: "http://localhost:5005", // Für die Entwicklungsumgebung mit Lokalem Bot 5005
-                // socketUrl: "http://localhost:8080", // Für Local-Docker mit 8080
-                socketUrl: "http://notion-bot.noneddon.de:2375", // Remote Docker auf dem Webserver
-                // add other props here
-              },
-              null
-            );
-          }),
-          t.insertBefore(e, t.firstChild);
-      })();
-      </script>
+  <h1>Welcome to the Notion Assistant!</h1>
+  <h2>This site is currently in development mode!</h2>
+
+  <!-- Start of the Rasa Webschat Script -->
+  <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+        // Replace 1.x.x with the version that you want
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              initPayload: '/greet',
+              customData: { language: "en" },
+              // socketUrl: "http://localhost:5005", // Für die Entwicklungsumgebung mit Lokalem Bot 5005
+              // socketUrl: "http://localhost:8080", // Für Local-Docker mit 8080
+              socketUrl: "http://notion-bot.noneddon.de:2375", // Remote Docker auf dem Webserver
+              // add other props here
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+  </script>
+  <!-- End of the Rasa Webschat Script -->
+
+  <!-- Start of the Content -->
+
+
+  <!-- Begin of the footer -->
+  <footer class="bg-secondary text-secondary text-center pt-5 pb-5">
+    <div class="w-100">
+      <div class="row w-100 m-0">
+        <div class="col-12 pb-2">
+          <p>
+            Das ist ein Gruppenprojekt der DHBW Mosbach, Projektgruppe 6 | Digitaler Assistent
+          </p>
+          <h4>Projektmitglieder</h4>
+          <ul>
+            <li>Anna-Lena Kubat</li>
+            <li>Antje Schmollinger</li>
+            <li>Julian Fleischmann</li>
+            <li>Olga Merz</li>
+            <li>Rosanna Wagner</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+    </div>
+
+  </footer>
+  <!-- End of the footer -->
+
 </body>
+
 </html>
