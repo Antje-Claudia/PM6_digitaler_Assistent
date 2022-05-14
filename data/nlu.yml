@@ -225,3 +225,23 @@ nlu:
     - What can I do?
     - How do I use notion?
     - Tell me about notion
+
+- intent: use_media
+  examples: |
+    - media
+    - image
+    - web bookmark
+    - bookmark
+    - video
+    - audio
+    - mp3
+    - mp4
+    - code
+    - file
+    - Can I use images?
+    - Can I use videos?
+    - Can I use other files?
+    - Can I create bookmarks?
+    - How can I use images in Notion?
+    - How can I use videos in Notion?
+    - How can I use audio in Notion?
