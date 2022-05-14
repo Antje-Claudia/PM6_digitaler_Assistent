@@ -1,4 +1,7 @@
 @import "../../vendors/bootstrap.css";
+@import "variables.css";
+@import "typography.css";
+@import "colors.css";
 
 
 /* @font-face {
