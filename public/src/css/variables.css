@@ -1,7 +1,7 @@
 
 /* For documentation: https://getbootstrap.com/docs/5.2/customize/css-variables/#content */
 :root {
-    --bs-secondary: #6c757d;
+    --bs-secondary: #F9F5F1; /* Edited */
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -9,7 +9,7 @@
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
     --bs-primary-rgb: 255, 254, 252;
-    --bs-secondary-rgb: var(--bs-body-bg); /* Edited */
+    --bs-secondary-rgb: rgb(249, 245, 241); /* Edited */
     --bs-success-rgb: 25, 135, 84;
     --bs-info-rgb: 13, 202, 240;
     --bs-warning-rgb: 255, 193, 7;
@@ -38,8 +38,8 @@
     --bs-border-radius-2xl: 2rem;
     --bs-border-radius-pill: 50rem;
     --bs-heading-color: ;
-    --bs-link-color: #0d6efd;
-    --bs-link-hover-color: #0a58ca;
+    --bs-link-color: var(--bs-body-color); /* Edited */
+    --bs-link-hover-color: #EB5757; /* Edited */
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd;
 
@@ -48,5 +48,7 @@
     * Custom Variables
     */
     --grpsix-text-color-medium: rgba(0,0,0,0.6);
+
+    --grpsix-bg-dark: #9F9284;
   }
   
