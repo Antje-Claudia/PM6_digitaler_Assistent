@@ -1,3 +1,16 @@
+@import "../../vendors/bootstrap.css";
+@import "variables.css";
+@import "typography.css";
+@import "colors.css";
+
+/**
+* Bot styling
+*/
+
+@import "bot-styling.css";
+
+
+
 /* @font-face {
     font-family:'inter-var';
     font-style: normal;

@@ -1,0 +1,34 @@
+.rw-conversation-container .rw-header {
+    background-color: var(--bs-secondary) !important;
+    font-family: var(--bs-font-sans-serif) !important;
+    color: var(--bs-body-color) !important;
+}
+
+.rw-markdown {
+    font-family: var(--bs-font-sans-serif) !important;
+}
+
+.rw-response {
+    background-color: var(--bs-secondary) !important;
+}
+
+.rw-client {
+    background-color: var(--grpsix-bg-dark) !important;
+}
+
+/* .rw-message-text {
+    color: var(--bs-body-color) !important;
+} */
+
+.rw-launcher {
+    background-color: var(--grpsix-bg-dark) !important;
+}
+
+.rw-messages-container {
+    background-color: var(--bs-body-bg) !important;
+}
+
+.rw-conversation-container .rw-send .rw-send-icon-ready {
+    fill: var(--bs-primary-rgb) !important;
+}
+

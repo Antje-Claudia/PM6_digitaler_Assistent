@@ -1,37 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>My Notion Chat</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/main.css">
+  <title>Notion Assistant</title>
 </head>
+
 <body>
-    <h1>Welcome to the Notion Chatbot!</h1>
-    <h2>This site is currently in development mode!</h2>
-    <script>!(function () {
-        let e = document.createElement("script"),
-          t = document.head || document.getElementsByTagName("head")[0];
-        (e.src =
-          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
-          // Replace 1.x.x with the version that you want
-          (e.async = !0),
-          (e.onload = () => {
-            window.WebChat.default(
-              {
-                initPayload: '/greet',
-                customData: { language: "en" },
-                // socketUrl: "http://localhost:5005", // Für die Entwicklungsumgebung mit Lokalem Bot 5005
-                // socketUrl: "http://localhost:8080", // Für Local-Docker mit 8080
-                socketUrl: "http://notion-bot.noneddon.de:2375", // Remote Docker auf dem Webserver
-                // add other props here
-              },
-              null
-            );
-          }),
-          t.insertBefore(e, t.firstChild);
-      })();
-      </script>
+  
+
+  <!-- Start of the Rasa Webschat Script -->
+  <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+        // Replace 1.x.x with the version that you want
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              initPayload: '/greet',
+              customData: { language: "en" },
+              // socketUrl: "http://localhost:5005", // Für die Entwicklungsumgebung mit Lokalem Bot 5005
+              // socketUrl: "http://localhost:8080", // Für Local-Docker mit 8080
+              socketUrl: "http://notion-bot.noneddon.de:2375", // Remote Docker auf dem Webserver
+              // add other props here
+
+              title: "Notion digital assistant"
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+  </script>
+  <!-- End of the Rasa Webschat Script -->
+
+<!-- Begin of the header -->
+<header>
+
+</header>
+<!-- End of the header -->
+
+
+  <!-- Start of the Content -->
+<main>
+  <div class="container pt-5 pb-5">
+    <h1 class="grpsix-global-title-size-xxl">Welcome to<br> the Notion Assistant!</h1>
+  </div>
+
+  <div class="container">
+    <h3>Short instruction</h3>
+    <p>Bevore you are going to use (and love) our brand new digital assistant, we will give you somoe instructions.</p>
+    <ol>
+      <li>Our assistant is an <b>english speaking guy,</b> so please write english with him :)</li>
+      <li><b>Click on the icon</b> on the bottom right to start</li>
+      <li>You always can <b>restart</b> the tutorial whith the words <b>"start tutorial"</b></li>
+      <li>Please <b>be friendly</b> to him :)</li>
+      <li>Have fun!</li>
+    </ol>
+  </div>
+  
+</main>
+
+  <!-- Begin of the footer -->
+  <footer class="container bg-secondary pt-5 pb-5 mt-5 border-top">
+    <div class="w-100">
+      <div class="row w-100 m-0">
+        <div class="col-4">
+          <h6>Information</h6>
+          <p class="text-color-medium">Der digitale Assistent wurde erstellt im Rahmen eines Gruppenprojektes an der DHBW Mosbach im Studiengang Onlinemedien.</p>
+          <p class="text-color-medium">Jahrgang ON21</p>
+        </div>
+        <div class="col-4 pb-2">
+          <h6>Projektmitglieder</h4>
+          <ul class="list-unstyled text-color-medium">
+            <li>Anna-Lena Kubat</li>
+            <li>Antje Schmollinger</li>
+            <li>Julian Fleischmann</li>
+            <li>Olga Merz</li>
+            <li>Rosanna Wagner</li>
+          </ul>
+        </div>
+        <div class="col-4 pb-2">
+          <h6>Dozent</h4>
+          <ul class="list-unstyled text-color-medium">
+            <li>Bas Hiemstra</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+    </div>
+
+  </footer>
+  <!-- End of the footer -->
+
 </body>
+
 </html>
