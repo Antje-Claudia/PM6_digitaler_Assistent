@@ -248,7 +248,6 @@ nlu:
 
 - intent: use_text
   examples: |
-    - How can I use text?
     - text
     - Text
     - I want use text in Notion
