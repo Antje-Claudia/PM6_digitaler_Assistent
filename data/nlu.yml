@@ -245,3 +245,23 @@ nlu:
     - How can I use images in Notion?
     - How can I use videos in Notion?
     - How can I use audio in Notion?
+
+- intent: use_text
+  examples: |
+    - How can I use text?
+    - text
+    - Text
+    - I want use text in Notion
+    - How can I format text?
+    - I want to format my text
+    - backgroundcolor
+    - background-color
+    - color
+    - bold
+    - cursive
+    - italic
+    - I want write text
+    - I want to write text in Notion
+    - format text
+    - I want write
+    - I want write something

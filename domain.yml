@@ -24,6 +24,7 @@ intents:
   - structure_of_notion
   - templates
   - use_media
+  - use_text
 
 responses:
   utter_greet:
@@ -155,6 +156,9 @@ responses:
 
   utter_information_media5:
   - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
+
+  utter_use_text:
+  - text: "To use text, you need to type -/- and select the Text-Option. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. After that, you'll see options like bold, italic, and more."
 
 session_config:
   session_expiration_time: 60
