@@ -1,0 +1,25 @@
+@import "../../vendors/bootstrap.css";
+@import "variables.css";
+@import "typography.css";
+@import "colors.css";
+
+/**
+* Bot styling
+*/
+
+@import "bot-styling.css";
+
+
+
+/* @font-face {
+    font-family:'inter-var';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Inter'), local('Inter-Regular'),
+    url(./fonts/Inter-VariableFont_slnt\,wght.ttf) format('ttf-variations'),
+ } */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ html {
+    font-family: 'Inter', sans-serif;
+    background: #FFFEFC;
+ }

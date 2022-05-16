@@ -1,0 +1,247 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: asking_notion
+  examples: |
+    - I need help in notion
+    - Notion
+    - Can you help me with notion?
+
+- intent: restore_account
+  examples: |  
+    -	Can I restore my account?
+    -	How can I restore my account?
+    -	Can you help me to restore my account?
+    - I want to restore my account
+    -	restore my account
+    -	restore my old account
+
+- intent: operating_help
+  examples: |
+    - How can I use you?
+    - How can I use this bot?
+    - How can I use this Bot?
+    - How can you help me?
+    - How can I operate with you?
+    - How can I operate with this Bot?
+    - Which functions do you have?
+    - Which functions does this bot have?
+    - Can you explain the operation to me?
+    - I need help with the operation
+    - I need help with operation
+    - How can I start?
+    - What can I ask you?
+    - What can you do for me?
+    - How does this works?
+    - How do you work?
+    - What options do I have?
+    - Can you tell me my options?
+    - What are my options?
+    - My options
+    - my options
+    - operation
+    - service
+
+- intent: asking_userrole
+  examples: |
+    - User Role 
+    - Payment
+    - Can you tell me the benefits for my User Role?
+    - I am a in a Team
+    - I am a private user
+    - I work in a company
+    - Do I get a sale?
+    - Is Notion free?
+
+- intent: userrole_personalUser
+  examples: |
+    - Personal User
+    - Standard User 
+
+- intent: userrole_profesionalUser
+  examples: |
+    - Profesional User
+
+- intent: userrole_smallTeam
+  examples: |
+    - small Team
+
+- intent: userrole_company
+  examples: |
+    - Company
+    
+- intent: delete_account
+  examples: |
+    - delete account
+    - change account
+    - Can I delete my account?
+    - remove account
+    - other account
+    - I want another account
+
+- intent: start_tutorial_notion
+  examples: |
+    - start tutorial
+    - beginner tutorial
+    - easy functions
+    - tutorial
+    - basics
+    - basic functions
+    - use notion
+    - How can I use notion?
+    - my first step
+    - first steps
+    - first time using notion
+
+- intent: basic_functions_notion
+  examples: |
+    - basic function
+    - basic functions
+    - functions
+    - basics
+
+- intent: new_page
+  examples: |
+    - new page
+    - new
+    - page
+    - create new page
+    - use pages
+    - How do I create a new page?
+    - 1.
+    - 1
+
+- intent: structure_of_notion
+  examples: |
+    - structure
+    - structure of notion
+    - 2.
+    - 2
+    - blocks
+
+- intent: templates
+  examples: |
+    - templates
+    - How do I use templates?
+    - Are there templates?
+    - structured pages
+    - pages ready for use
+    - 3.
+    - 3
+
+- intent: overview
+  examples: |
+    - overview
+    - What is notion?
+    - What can I do?
+    - How do I use notion?
+    - Tell me about notion
+
+- intent: use_media
+  examples: |
+    - media
+    - image
+    - web bookmark
+    - bookmark
+    - video
+    - audio
+    - mp3
+    - mp4
+    - code
+    - file
+    - Can I use images?
+    - Can I use videos?
+    - Can I use other files?
+    - Can I create bookmarks?
+    - How can I use images in Notion?
+    - How can I use videos in Notion?
+    - How can I use audio in Notion?
