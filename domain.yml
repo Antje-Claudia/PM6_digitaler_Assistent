@@ -28,6 +28,7 @@ intents:
   - use_sub-page
   - use_to_do_list
   - use_heading
+  - use_table
 
 responses:
   utter_greet:
@@ -171,6 +172,9 @@ responses:
 
   utter_use_heading:
   - text: "To create a heading 🔤 inside your page, you need to type / and select the correct Option. \n\n You can choose between big (h1), medium (h2) and small (h3) section headings."
+
+  utter_use_table:
+  - text: "In Notion, you have the option to embed simple tables 📐. \n\n To do so, you just have to type / and select the table-option. \n \n If the table is created, different format-options will appear. You can add more columns and lines, add headings, change the size and much more."
 
 session_config:
   session_expiration_time: 60

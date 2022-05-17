@@ -150,3 +150,8 @@ stories:
   steps:
   - intent: use_heading
   - action: utter_use_heading
+
+- story: use tables in Notion
+  steps:
+  - intent: use_table
+  - action: utter_use_table

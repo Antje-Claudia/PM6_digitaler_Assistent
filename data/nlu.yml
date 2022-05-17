@@ -299,3 +299,14 @@ nlu:
     - title
     - caption
     - How can I create headings?
+
+- intent: use_table
+  examples: |
+    - I need a table
+    - I want to embed a table
+    - How can I create a table?
+    - table
+    - simple table
+    - How can I use tables in Notion?
+    - I want to create tables
+    - I want to create a table
