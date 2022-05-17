@@ -165,7 +165,7 @@ responses:
   utter_information_media5:
   - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
 
-    utter_pros_on_databases1:
+  utter_pros_on_databases1:
   - text: "Databases in Notion are great! There are some basic facts about them:"
 
   utter_pros_on_databases2:
