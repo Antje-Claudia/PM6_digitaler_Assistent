@@ -24,6 +24,15 @@ intents:
   - structure_of_notion
   - templates
   - use_media
+  - create_calendar
+  - create_kanban_board
+  - create_gallery
+  - create_list_view
+  - create_timeline
+  - database
+  - database_full_page
+  - database_inline
+  - database_link
   - presentation_skills
   - presentation_who
   - presentation_develop
@@ -158,6 +167,105 @@ responses:
 
   utter_information_media5:
   - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
+
+  utter_pros_on_databases1:
+  - text: "Databases in Notion are great! There are some basic facts about them:"
+
+  utter_pros_on_databases2:
+  - text: "Every item is its own aditable page!"
+
+  utter_pros_on_databases3:
+  - text: "All properties are customizable!"
+
+  utter_pros_on_databases4:
+  - text: "There are multiple layouts, called -views- you can use for one database!"
+
+  utter_overview_database1:
+  - text: "In Notion you can use different types of databases. There are…"
+
+  utter_overview_database2:
+  - text: "1. Calendar database\n \n2. Canban Board database\n \n3. Gallery database\n \n4. List view database\n \n5. Timeline database"
+
+  utter_overview_database3:
+  - text: "You can create a database on a new full page or an inline database on the current page. It is also possible to link to an existing database."
+
+  utter_overview_database4:
+  - text: "Please tell me in which database you are interested in and I will be happy to help you!"
+
+  utter_overview_calendar_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Calendar view-!"
+
+  utter_overview_calendar_database2:
+  - text: "This action will create a calendar view of your data. Now you can visualize how database items connect to certain dates."
+
+  utter_overview_calendar_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/calendars."
+
+  utter_overview_kanban_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Board view-!"
+  
+  utter_overview_kanban_database2:
+  - text: "This action will create a board view of your data. You can create your own kanban board! "
+  
+  utter_overview_kanban_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/guides/board-view-databases."
+
+  utter_overview_gallery_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Gallery view-!"
+
+  utter_overview_gallery_database2:
+  - text: "This action will create a gallery view of your data, a perfect way to display your databases with visual components!"
+
+  utter_overview_gallery_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/galleries."
+
+  utter_overview_list_view_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -List view-!"
+
+  utter_overview_list_view_database2:
+  - text: "This action will create a list view of your data, a simple an minimalisitic view of databases."
+
+  utter_overview_list_view_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/lists."
+
+  utter_overview_timeline_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Timeline view-!"
+
+  utter_overview_timeline_database2:
+  - text: "This action will create a timeline for your data in chronological order."
+
+  utter_overview_timeline_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/timelines."
+
+  utter_overview_database_full_page1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Database - Full page-!"
+
+  utter_overview_database_full_page2:
+  - text: "This action will create a new database on a sub page of your current page."
+
+  utter_overview_database_full_page3:
+  - text: "Your current page will refer to the new database."
+
+  utter_overview_database_full_page4:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_overview_database_linked1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Linked view of database-!"
+
+  utter_overview_database_linked2:
+  - text: "This action will create a link to another existing database."
+
+  utter_overview_database_linked3:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_overview_database_inline1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Database - Inline-!"
+
+  utter_overview_database_inline2:
+  - text: "This action will create a new database on your current page."
+
+  utter_overview_database_inline3:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
 
   utter_presentation_who:
   - text: "You don't know me yet, but I'm\n \nBOTion 🤖\n \nyour personal Notion assistant."
