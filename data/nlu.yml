@@ -147,17 +147,20 @@ nlu:
     - Personal User
     - Standard User 
 
-- intent: userrole_profesionalUser
+- intent: userrole_professionalUser
   examples: |
-    - Profesional User
+    - Professional User
+    - I am a professional user
 
 - intent: userrole_smallTeam
   examples: |
     - small Team
+    - I am in a small team 
 
 - intent: userrole_company
   examples: |
     - Company
+    - I am in a company 
     
 - intent: delete_account
   examples: |
@@ -333,3 +336,19 @@ nlu:
     - database via link
     - I want to include a link to another database.
     - Can I refer to another database via link?
+
+- intent: presentation_who
+  examples: |
+    - Bot Prestentation
+    - Who are you?
+    - Who is there?
+
+- intent: presentation_develop
+  examples: |
+    - Who developed you? 
+    - Who are your developers? 
+
+- intent: presentation_skills
+  examples: |
+    - What is your purpose?
+    - What is your use?

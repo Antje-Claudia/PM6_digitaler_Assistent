@@ -33,6 +33,9 @@ intents:
   - database_full_page
   - database_inline
   - database_link
+  - presentation_skills
+  - presentation_who
+  - presentation_develop
 
 responses:
   utter_greet:
@@ -145,7 +148,7 @@ responses:
   - text: "There are different products for different requests, like notion for enterprise, notion for small business or notion for education."
 
   utter_overview_notion3:
-  - text: "You can find information in the blog or help center, start your work witj webinars and tutorials or explore the nearly endless world of templates!"
+  - text: "You can find information in the blog or help center, start your work with webinars and tutorials or explore the nearly endless world of templates!"
 
   utter_overview_notion4:
   - text: "Sounds good? Then visit https://www.notion.so/."
@@ -263,6 +266,15 @@ responses:
 
   utter_overview_database_inline3:
   - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_presentation_who:
+  - text: "You don't know me yet, but I'm\n \nBOTion 🤖\n \nyour personal Notion assistant."
+
+  utter_presentation_develop:
+  - text: "I was developed by Group 6.\n \nThe members are:\n\n- Antje Schmollinger 👩‍💻\n \n- Julian Fleischmann 👨‍💻\n \n- Olga Merz 👩‍💻\n \n- Rosanna Wagner 👩‍💻\n \n- Anna-Lena Kubat 👩‍💻"
+
+  utter_presentation_skills:
+  - text: "That's what my developers are now telling you in the presentation.\n\nEnjoy the journey of my creation.🥳"
 
 session_config:
   session_expiration_time: 60

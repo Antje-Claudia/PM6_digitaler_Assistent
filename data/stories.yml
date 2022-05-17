@@ -199,3 +199,12 @@ stories:
   - action: utter_overview_database_linked1
   - action: utter_overview_database_linked2
   - action: utter_overview_database_linked3
+
+- story: Presentation of the bot
+  steps:
+  - intent: presentation_who
+  - action: utter_presentation_who
+  - intent: presentation_develop
+  - action: utter_presentation_develop
+  - intent: presentation_skills
+  - action: utter_presentation_skills
