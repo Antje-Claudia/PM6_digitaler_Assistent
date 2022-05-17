@@ -27,6 +27,7 @@ intents:
   - use_text
   - use_sub-page
   - use_to_do_list
+  - use_heading
 
 responses:
   utter_greet:
@@ -167,6 +168,9 @@ responses:
 
   utter_use_to_do_list:
   - text: "You can create To-do lists 🗒️ in Notion to organize your life. \n\n You need to type / and select the To-do list - Option. If items inside your To-do list are done, you can tick it and the text will automatically be crossed."
+
+  utter_use_heading:
+  - text: "To create a heading 🔤 inside your page, you need to type / and select the correct Option. \n\n You can choose between big (h1), medium (h2) and small (h3) section headings."
 
 session_config:
   session_expiration_time: 60

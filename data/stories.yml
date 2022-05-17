@@ -145,3 +145,8 @@ stories:
   steps:
   - intent: use_to_do_list
   - action: utter_use_to_do_list
+
+- story: use headings in Notion
+  steps:
+  - intent: use_heading
+  - action: utter_use_heading

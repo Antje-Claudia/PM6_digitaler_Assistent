@@ -288,3 +288,14 @@ nlu:
     - To-do list
     - I need a To-do list
     - To do
+
+- intent: use_heading
+  examples: |
+    - I want to use headings
+    - I want to use a heading
+    - heading
+    - Headings
+    - headline
+    - title
+    - caption
+    - How can I create headings?
