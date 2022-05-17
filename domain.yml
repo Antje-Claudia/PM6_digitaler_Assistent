@@ -160,7 +160,7 @@ responses:
   - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
 
   utter_presentation_who:
-  - text: "You don't know me yet, but I'm\n \nBOTion 🤖\n \n, your personal Notion assistant."
+  - text: "You don't know me yet, but I'm\n \nBOTion 🤖\n \nyour personal Notion assistant."
 
   utter_presentation_develop:
   - text: "I was developed by Group 6.\n \nThe members are:\n\n- Antje Schmollinger 👩‍💻\n \n- Julian Fleischmann 👨‍💻\n \n- Olga Merz 👩‍💻\n \n- Rosanna Wagner 👩‍💻\n \n- Anna-Lena Kubat 👩‍💻"
