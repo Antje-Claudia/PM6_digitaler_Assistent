@@ -130,3 +130,72 @@ stories:
   - action: utter_information_media3
   - action: utter_information_media4
   - action: utter_information_media5
+
+- story: information about databases
+  steps:
+  - intent: database
+  - action: utter_pros_on_databases1
+  - action: utter_pros_on_databases2
+  - action: utter_pros_on_databases3
+  - action: utter_pros_on_databases4
+  - action: utter_overview_database1
+  - action: utter_overview_database2
+  - action: utter_overview_database3
+  - action: utter_overview_database4
+
+- story: calendar database
+  steps:
+  - intent: create_calendar
+  - action: utter_overview_calendar_database1
+  - action: utter_overview_calendar_database2
+  - action: utter_overview_calendar_database3
+
+- story: kanban board database
+  steps:
+  - intent: create_kanban_board
+  - action: utter_overview_kanban_database1
+  - action: utter_overview_kanban_database2
+  - action: utter_overview_kanban_database3
+
+- story: gallery database
+  steps:
+  - intent: create_gallery
+  - action: utter_overview_gallery_database1
+  - action: utter_overview_gallery_database2
+  - action: utter_overview_gallery_database3
+
+- story: list view database
+  steps:
+  - intent: create_list_view
+  - action: utter_overview_list_view_database1
+  - action: utter_overview_list_view_database2
+  - action: utter_overview_list_view_database3
+
+- story: timeline database
+  steps:
+  - intent: create_timeline
+  - action: utter_overview_timeline_database1
+  - action: utter_overview_timeline_database2
+  - action: utter_overview_timeline_database3
+
+- story: full page database
+  steps:
+  - intent: database_full_page
+  - action: utter_overview_database_full_page1
+  - action: utter_overview_database_full_page2
+  - action: utter_overview_database_full_page3
+  - action: utter_overview_database_full_page4
+
+- story: inline database
+  steps:
+  - intent: database_inline
+  - action: utter_overview_database_inline1
+  - action: utter_overview_database_inline2
+  - action: utter_overview_database_inline3
+
+- story: linked view database
+  steps:
+  - intent: database_link
+  - action: utter_overview_database_linked1
+  - action: utter_overview_database_linked2
+  - action: utter_overview_database_linked3
