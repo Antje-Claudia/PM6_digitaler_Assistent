@@ -248,6 +248,7 @@ nlu:
 
 - intent: use_text
   examples: |
+    - How can I use text?
     - text
     - Text
     - I want use text in Notion
@@ -264,3 +265,14 @@ nlu:
     - format text
     - I want write
     - I want write something
+
+- intent: use_sub-page
+  examples: |
+    - I want to use a sub-page
+    - I want to create sub-page
+    - sub-page
+    - How can I create a sub-page
+    - Where can I see my sub-pages?
+    - How can I embed a sub-page
+    - embed a sub-page
+    - embed a sub-page inside my page

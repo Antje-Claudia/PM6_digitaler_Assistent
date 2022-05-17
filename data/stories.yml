@@ -134,4 +134,9 @@ stories:
 - story: use text in Notion
   steps:
   - intent: use_text
-  - action: utter_use_text
+  - action: utter_use_text  
+
+- story: use sub-pages in Notion
+  steps:
+  - intent: use_sub-page
+  - action: utter_use_sub-page

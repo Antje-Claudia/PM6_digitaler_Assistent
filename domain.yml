@@ -25,6 +25,7 @@ intents:
   - templates
   - use_media
   - use_text
+  - use_sub-page
 
 responses:
   utter_greet:
@@ -158,7 +159,10 @@ responses:
   - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
 
   utter_use_text:
-  - text: "To use text, you need to type -/- and select the Text-Option. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. After that, you'll see options like bold, italic, and more."
+  - text: "To use text, you need to type / and select the Text-Option in Notion. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. Then you'll see options like bold, italic and more."
+
+  utter_use_sub-page:
+  - text: "To embed a sub-page inside your page, you need to type / and select the Page-Option. \n \n A new page will open automatically. \n\n You can refind this page inside your main-page and it also appears in the left menu bar if the main page is further expanded there."
 
 session_config:
   session_expiration_time: 60
