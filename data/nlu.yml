@@ -310,3 +310,76 @@ nlu:
     - How can I use tables in Notion?
     - I want to create tables
     - I want to create a table
+
+- intent: use_bullet_list
+  examples: |
+    - I want to use a bulleted list
+    - bulleted list
+    - How can I create bullet-list
+    - Bulletpoints
+    - bulletpoints-list
+    - bulleted list
+    - Can you help me to create a bulleted list?
+
+- intent: use_numbered_list
+  examples: |
+    - I want to use a numbered list
+    - numbered list
+    - How can I create a number-list
+    - numbered-list
+    - list with numbering
+    - I need a list with numbers
+    - Can you help me to create a numbered list?
+
+- intent: use_toggle_list
+  examples: |
+    - toggle list
+    - toggle-list
+    - I want a toggle list
+    - toggle
+    - Toggles
+    - I want to create a Toggle List
+    - Can I use a toggle list?
+    - I want a list with hidden content
+
+- intent: use_quotes
+  examples: |
+    - quote
+    - Quotes
+    - I want use quotes
+    - How can I embed quotes
+    - How can I embed a quote on my page?
+    - Can you help me to build a quote?
+    - create quote
+    - build quote
+
+- intent: use_divider
+  examples: |
+    - I want to use divider
+    - How can I create a divider?
+    - I need a line to seperate my content
+    - create divider
+    - create line to divide content
+    - I want to divide my blocks
+    - I want to seperate my blocks
+
+
+- intent: use_link
+  examples: |
+    - I want to link my pages
+    - How can I connect my Notion-pages
+    - link
+    - I want to link pages
+    - link to an existing page
+    - link to page
+    - create link to page
+    - create a link to a existing page
+
+- intent: use_callout
+  examples: |
+    - how can i highlight content?
+    - callout
+    - use callout
+    - embed callouts
+    - I want point out content
+    - Can I point out something?
