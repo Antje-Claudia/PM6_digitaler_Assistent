@@ -147,17 +147,20 @@ nlu:
     - Personal User
     - Standard User 
 
-- intent: userrole_profesionalUser
+- intent: userrole_professionalUser
   examples: |
-    - Profesional User
+    - Professional User
+    - I am a professional user
 
 - intent: userrole_smallTeam
   examples: |
     - small Team
+    - I am in a small team 
 
 - intent: userrole_company
   examples: |
     - Company
+    - I am in a company 
     
 - intent: delete_account
   examples: |
@@ -226,22 +229,18 @@ nlu:
     - How do I use notion?
     - Tell me about notion
 
-- intent: use_media
+- intent: presentation_who
   examples: |
-    - media
-    - image
-    - web bookmark
-    - bookmark
-    - video
-    - audio
-    - mp3
-    - mp4
-    - code
-    - file
-    - Can I use images?
-    - Can I use videos?
-    - Can I use other files?
-    - Can I create bookmarks?
-    - How can I use images in Notion?
-    - How can I use videos in Notion?
-    - How can I use audio in Notion?
+    - Bot Prestentation
+    - Who are you?
+    - Who is there?
+
+- intent: presentation_develop
+  examples: |
+    - Who developed you? 
+    - Who are your developers? 
+
+- intent: presentation_skills
+  examples: |
+    - What is your purpose?
+    - What is your use?
