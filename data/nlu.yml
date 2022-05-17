@@ -276,3 +276,15 @@ nlu:
     - How can I embed a sub-page
     - embed a sub-page
     - embed a sub-page inside my page
+
+- intent: use_to_do_list
+  examples: |
+    - I want to create a To-Do List
+    - To-Do List
+    - to-do-list
+    - I want to organize my ToDos
+    - How can I create a To-Do List?
+    - I want to create a to-do-list in Notion
+    - To-do list
+    - I need a To-do list
+    - To do
