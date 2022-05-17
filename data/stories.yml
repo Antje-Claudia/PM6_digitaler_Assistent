@@ -130,3 +130,8 @@ stories:
   - action: utter_information_media3
   - action: utter_information_media4
   - action: utter_information_media5
+
+- story: embed different files
+  steps:
+  - intent: embeds
+  - action: utter_embeds
