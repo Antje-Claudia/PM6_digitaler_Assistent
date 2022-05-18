@@ -558,4 +558,26 @@ nlu:
   examples: |
     - mention a person 
     - can I mention a person?
-    - can I link someone?
+
+- intent: mention_a_page
+  examples: |
+    - how can I mention a different page
+    - mention different page
+
+- intent: date_or_reminder
+  examples: |
+    - I always forget the date
+    - is there a date reminder 
+    - what is the date reminder?
+
+- intent: insert_emoji
+  examples: |
+    - want to insert an emoji
+    - how do i find the right emoji
+    - inline block emoji
+
+- intent: inline_equation
+  examples: |
+    - what is inline equation?
+    - how to insert maths symbols?
+    - how can I insert maths symbols?

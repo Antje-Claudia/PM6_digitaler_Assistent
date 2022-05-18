@@ -55,6 +55,10 @@ intents:
   - create_synced_block
   - create_toggle_heading
   - mention_a_person
+  - mention_a_different_page 
+  - date_or_reminder
+  - insert_emoji
+  - inline_equation
 
 responses:
   utter_greet:
@@ -375,6 +379,18 @@ responses:
 
   utter_mention_a_person: 
   - text: "if you type @, it will show you all the people linked to Notion. A person will be notified as soon as they are linked."
+
+  utter_mention_differnt_page: 
+  - text: "a page can be linked with @. This will be embedded in the text and you can continue writing directly behind it."
+
+  utter_date_or_reminder: 
+  - text: "with this inline blog a date can be selected. by setting it, a date reminder will be created."
+
+  utter_insert_emoji: 
+  - text: "with this inline blog you can search for the matching emoji and embed it right away."
+
+  utter_inline_equation:
+  - text: "with this inline blog mathematical symbols can be embedded right into the text."
 
 session_config:
   session_expiration_time: 60
