@@ -301,3 +301,7 @@ stories:
 - story: toggle heading
   steps:
   - intent: create_toggle_heading
+  - action: utter_overview_toggle_heading1
+  - action: utter_overview_toggle_heading2
+  - action: utter_overview_toggle_heading3
+  - action: utter_overview_toggle_heading4
