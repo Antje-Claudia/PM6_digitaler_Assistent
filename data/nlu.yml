@@ -556,7 +556,6 @@ nlu:
 
 - intent: mention_a_person
   examples: |
-    - link a person 
     - mention a person 
     - can I mention a person?
     - can I link someone?
