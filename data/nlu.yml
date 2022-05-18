@@ -553,3 +553,10 @@ nlu:
     - toggle heading 1
     - toggle heading 2
     - toggle heading 3
+
+- intent: mention_a_person
+  examples: |
+    - link a person 
+    - mention a person 
+    - can I mention a person?
+    - can I link someone?

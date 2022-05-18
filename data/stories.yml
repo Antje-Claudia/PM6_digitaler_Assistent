@@ -302,3 +302,7 @@ stories:
 - story: toggle heading
   steps:
   - intent: create_toggle_heading
+
+- story: mention a person
+  steps: 
+  - intent: mention_a_person
