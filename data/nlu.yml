@@ -147,17 +147,20 @@ nlu:
     - Personal User
     - Standard User 
 
-- intent: userrole_profesionalUser
+- intent: userrole_professionalUser
   examples: |
-    - Profesional User
+    - Professional User
+    - I am a professional user
 
 - intent: userrole_smallTeam
   examples: |
     - small Team
+    - I am in a small team 
 
 - intent: userrole_company
   examples: |
     - Company
+    - I am in a company 
     
 - intent: delete_account
   examples: |
@@ -274,3 +277,246 @@ nlu:
     - Trello 
     - How can I embed a PDF?
     - How can I embed from another programm?
+=======
+    
+- intent: use_text
+  examples: |
+    - How can I use text?
+    - text
+    - Text
+    - I want use text in Notion
+    - How can I format text?
+    - I want to format my text
+    - backgroundcolor
+    - background-color
+    - color
+    - bold
+    - cursive
+    - italic
+    - I want write text
+    - I want to write text in Notion
+    - format text
+    - I want write
+    - I want write something
+
+- intent: use_sub-page
+  examples: |
+    - I want to use a sub-page
+    - I want to create sub-page
+    - sub-page
+    - How can I create a sub-page
+    - Where can I see my sub-pages?
+    - How can I embed a sub-page
+    - embed a sub-page
+    - embed a sub-page inside my page
+
+- intent: use_to_do_list
+  examples: |
+    - I want to create a To-Do List
+    - To-Do List
+    - to-do-list
+    - I want to organize my ToDos
+    - How can I create a To-Do List?
+    - I want to create a to-do-list in Notion
+    - To-do list
+    - I need a To-do list
+    - To do
+
+- intent: use_heading
+  examples: |
+    - I want to use headings
+    - I want to use a heading
+    - heading
+    - Headings
+    - headline
+    - title
+    - caption
+    - How can I create headings?
+
+- intent: use_table
+  examples: |
+    - I need a table
+    - I want to embed a table
+    - How can I create a table?
+    - table
+    - simple table
+    - How can I use tables in Notion?
+    - I want to create tables
+    - I want to create a table
+
+- intent: use_bullet_list
+  examples: |
+    - I want to use a bulleted list
+    - bulleted list
+    - How can I create bullet-list
+    - Bulletpoints
+    - bulletpoints-list
+    - bulleted list
+    - Can you help me to create a bulleted list?
+
+- intent: use_numbered_list
+  examples: |
+    - I want to use a numbered list
+    - numbered list
+    - How can I create a number-list
+    - numbered-list
+    - list with numbering
+    - I need a list with numbers
+    - Can you help me to create a numbered list?
+
+- intent: use_toggle_list
+  examples: |
+    - toggle list
+    - toggle-list
+    - I want a toggle list
+    - toggle
+    - Toggles
+    - I want to create a Toggle List
+    - Can I use a toggle list?
+    - I want a list with hidden content
+
+- intent: use_quotes
+  examples: |
+    - quote
+    - Quotes
+    - I want use quotes
+    - How can I embed quotes
+    - How can I embed a quote on my page?
+    - Can you help me to build a quote?
+    - create quote
+    - build quote
+
+- intent: use_divider
+  examples: |
+    - I want to use divider
+    - How can I create a divider?
+    - I need a line to seperate my content
+    - create divider
+    - create line to divide content
+    - I want to divide my blocks
+    - I want to seperate my blocks
+
+
+- intent: use_link
+  examples: |
+    - I want to link my pages
+    - How can I connect my Notion-pages
+    - link
+    - I want to link pages
+    - link to an existing page
+    - link to page
+    - create link to page
+    - create a link to a existing page
+
+- intent: use_callout
+  examples: |
+    - how can i highlight content?
+    - callout
+    - use callout
+    - embed callouts
+    - I want point out content
+    - Can I point out something?
+
+- intent: create_calendar
+  examples: |
+    - calendar
+    - new calendar
+    - How can I use a calendar?
+    - Is there a calendar in Notion?
+    - How can I overview my appointments?
+    - add a calendar
+    - calendar database
+
+- intent: create_kanban_board
+  examples: |
+    - kanban board
+    - kanban
+    - board
+    - Can I create a kanban board?
+    - I want to create a kanban board.
+    - Can I work with cards?
+    - cards
+    - kanban database
+    - kanban board database
+
+- intent: create_gallery
+  examples: |
+    - gallery
+    - gallery view
+    - I want my data in a gallery view.
+    - Can I see my data in a gallery?
+    - gallery database
+
+- intent: create_list_view
+  examples: |
+    - list
+    - list view
+    - data in a list
+    - I want a list with my data.
+    - Can I create a list for data?
+    - list database
+    - list view database
+
+- intent: create_timeline
+  examples: |
+    - timeline
+    - timeline view
+    - Can I create a timeline?
+    - timeline for project?
+    - project timeline
+    - timeline database
+
+- intent: database
+  examples: |
+    - database
+    - data
+    - Can I use a table like in Microsoft Excel?
+    - Can I use a spreadsheet program?
+    - Can I use a spreadsheet software?
+    - Can I create a spreadsheet?
+    - I want to use a database.
+    - how to use databases
+
+- intent: database_full_page
+  examples: |
+    - full page
+    - full page database
+    - database on full page
+    - database on new page
+    - database on sub page
+    - I want to create a database on a full page.
+    - Can I create a database on a subpage?
+
+- intent: database_inline
+  examples: |
+    - inline
+    - inline database
+    - database inline
+    - database on this page
+    - I want to create a database on this page.
+    - I want to create a database on the current page.
+    - Can I create a database on this page?
+
+- intent: database_link
+  examples: |
+    - link to database
+    - linked database
+    - database via link
+    - I want to include a link to another database.
+    - Can I refer to another database via link?
+
+- intent: presentation_who
+  examples: |
+    - Bot Prestentation
+    - Who are you?
+    - Who is there?
+
+- intent: presentation_develop
+  examples: |
+    - Who developed you? 
+    - Who are your developers? 
+
+- intent: presentation_skills
+  examples: |
+    - What is your purpose?
+    - What is your use?

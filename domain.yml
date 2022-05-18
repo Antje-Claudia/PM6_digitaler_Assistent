@@ -25,6 +25,30 @@ intents:
   - templates
   - use_media
   - embeds
+  - use_text
+  - use_sub-page
+  - use_to_do_list
+  - use_heading
+  - use_table
+  - use_bullet_list
+  - use_numbered_list
+  - use_toggle_list
+  - use_quotes
+  - use_divider
+  - use_link
+  - use_callout
+  - create_calendar
+  - create_kanban_board
+  - create_gallery
+  - create_list_view
+  - create_timeline
+  - database
+  - database_full_page
+  - database_inline
+  - database_link
+  - presentation_skills
+  - presentation_who
+  - presentation_develop
 
 responses:
   utter_greet:
@@ -137,7 +161,7 @@ responses:
   - text: "There are different products for different requests, like notion for enterprise, notion for small business or notion for education."
 
   utter_overview_notion3:
-  - text: "You can find information in the blog or help center, start your work witj webinars and tutorials or explore the nearly endless world of templates!"
+  - text: "You can find information in the blog or help center, start your work with webinars and tutorials or explore the nearly endless world of templates!"
 
   utter_overview_notion4:
   - text: "Sounds good? Then visit https://www.notion.so/."
@@ -159,6 +183,150 @@ responses:
 
   utter_embeds:
   - text: "When you want to embed a PDF or another file from an external programm, follow the following steps:\n\n1. Click on the Notion Page where the external file should appear.\n \n2. For example type: /pdf\n \nto bring up the option to embed a external file.\n \nFor pdf you can substitute any file."
+
+  utter_use_text:
+  - text: "To use text ✒️, you need to type / and select the Text-Option in Notion. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. Then you'll see options like bold, italic and more."
+
+  utter_use_sub-page:
+  - text: "To embed a sub-page 📄 inside your page, you need to type / and select the Page-Option. \n \n A new page will open automatically. \n\n You can refind this page inside your main-page and it also appears in the left menu bar if the main page is further expanded there."
+
+  utter_use_to_do_list:
+  - text: "You can create To-do lists 🗒️ in Notion to organize your life. \n\n You need to type / and select the To-do list - Option. If items inside your To-do list are done, you can tick it and the text will automatically be crossed."
+
+  utter_use_heading:
+  - text: "To create a heading 🔤 inside your page, you need to type / and select the correct Option. \n\n You can choose between big (h1), medium (h2) and small (h3) section headings."
+
+  utter_use_table:
+  - text: "In Notion, you have the option to embed simple tables 📐. \n\n To do so, you just have to type / and select the table-option. \n \n If the table is created, different format-options will appear. You can add more columns and lines, add headings, change the size and much more."
+
+  utter_use_bullet_list:
+  - text: "To create a Bulleted list ⚫, you have to type / and choose the correct option. \n \n The list can be formatted with indentation using the tab key." 
+
+  utter_use_numbered_list:
+  - text: "To create a Numbered list 🔢, you have to type / and select the correct option. \n \n The list can be formatted with indentation using the tab key. \n\n You can use different list formats like numbers, letters and roman numerals."  
+
+  utter_use_toggle_list:
+  - text: "To create a Toggle list 🔻, you have to type / and choose the correct option. \n\n If you click on the toggles, content can be hidden or displayed."  
+
+  utter_use_quotes:
+  - text: "To create a Quote in Notion 💬, you have to type / and choose the quote-option. \n \n A special format will appear and you can insert anything you want" 
+
+  utter_use_divider:
+  - text: "Dividers are thin lines, which you can use in Notion to seperate content inside your pages. \n\n To create a divider 📏, you have to type / and choose the divider-option."  
+
+  utter_use_link:
+  - text: "You can use links 🔗 to connect different pages inside your Notion. \n \n To create such a link 🔗, you have to type / and choose the link-option."  
+
+  utter_use_callout:
+  - text: "Callouts 📍 are special Highlights, you can style your content with.\n \n The text will get a block with a special color. \n\n To create a Callout in Notion, you have to type / and choose the callout-option. Every Callout is styled with an Icon, which you can change."  
+
+  utter_pros_on_databases1:
+  - text: "Databases in Notion are great! There are some basic facts about them:"
+
+  utter_pros_on_databases2:
+  - text: "Every item is its own aditable page!"
+
+  utter_pros_on_databases3:
+  - text: "All properties are customizable!"
+
+  utter_pros_on_databases4:
+  - text: "There are multiple layouts, called -views- you can use for one database!"
+
+  utter_overview_database1:
+  - text: "In Notion you can use different types of databases. There are…"
+
+  utter_overview_database2:
+  - text: "1. Calendar database\n \n2. Canban Board database\n \n3. Gallery database\n \n4. List view database\n \n5. Timeline database"
+
+  utter_overview_database3:
+  - text: "You can create a database on a new full page or an inline database on the current page. It is also possible to link to an existing database."
+
+  utter_overview_database4:
+  - text: "Please tell me in which database you are interested in and I will be happy to help you!"
+
+  utter_overview_calendar_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Calendar view-!"
+
+  utter_overview_calendar_database2:
+  - text: "This action will create a calendar view of your data. Now you can visualize how database items connect to certain dates."
+
+  utter_overview_calendar_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/calendars."
+
+  utter_overview_kanban_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Board view-!"
+  
+  utter_overview_kanban_database2:
+  - text: "This action will create a board view of your data. You can create your own kanban board! "
+  
+  utter_overview_kanban_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/guides/board-view-databases."
+
+  utter_overview_gallery_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Gallery view-!"
+
+  utter_overview_gallery_database2:
+  - text: "This action will create a gallery view of your data, a perfect way to display your databases with visual components!"
+
+  utter_overview_gallery_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/galleries."
+
+  utter_overview_list_view_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -List view-!"
+
+  utter_overview_list_view_database2:
+  - text: "This action will create a list view of your data, a simple an minimalisitic view of databases."
+
+  utter_overview_list_view_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/lists."
+
+  utter_overview_timeline_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Timeline view-!"
+
+  utter_overview_timeline_database2:
+  - text: "This action will create a timeline for your data in chronological order."
+
+  utter_overview_timeline_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/timelines."
+
+  utter_overview_database_full_page1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Database - Full page-!"
+
+  utter_overview_database_full_page2:
+  - text: "This action will create a new database on a sub page of your current page."
+
+  utter_overview_database_full_page3:
+  - text: "Your current page will refer to the new database."
+
+  utter_overview_database_full_page4:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_overview_database_linked1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Linked view of database-!"
+
+  utter_overview_database_linked2:
+  - text: "This action will create a link to another existing database."
+
+  utter_overview_database_linked3:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_overview_database_inline1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Database - Inline-!"
+
+  utter_overview_database_inline2:
+  - text: "This action will create a new database on your current page."
+
+  utter_overview_database_inline3:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_presentation_who:
+  - text: "You don't know me yet, but I'm\n \nBOTion 🤖\n \nyour personal Notion assistant."
+
+  utter_presentation_develop:
+  - text: "I was developed by Group 6.\n \nThe members are:\n\n- Antje Schmollinger 👩‍💻\n \n- Julian Fleischmann 👨‍💻\n \n- Olga Merz 👩‍💻\n \n- Rosanna Wagner 👩‍💻\n \n- Anna-Lena Kubat 👩‍💻"
+
+  utter_presentation_skills:
+  - text: "That's what my developers are now telling you in the presentation.\n\nEnjoy the journey of my creation.🥳"
 
 session_config:
   session_expiration_time: 60
