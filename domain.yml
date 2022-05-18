@@ -49,6 +49,11 @@ intents:
   - presentation_skills
   - presentation_who
   - presentation_develop
+  - create_table_of_content
+  - create_block_equation
+  - create_breadcrumb
+  - create_synced_block
+  - create_toggle_heading
 
 responses:
   utter_greet:
