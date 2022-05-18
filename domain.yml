@@ -351,7 +351,7 @@ responses:
   utter_overview_breadcrumb1:
   - text: "You want to show where you are on the page? Then use the breadcrumbs!"
 
-  utter_overview_breadcrumbs2:
+  utter_overview_breadcrumb2:
   - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Breadcrumbs-!"
 
   utter_overview_synced_block1:

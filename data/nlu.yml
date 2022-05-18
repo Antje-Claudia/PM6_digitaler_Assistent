@@ -527,19 +527,19 @@ nlu:
     - Can I create a table of content?
 
 - intent: create_block_equation
-  example: |
+  examples: |
     - create block equation
     - block equation
     - I want to use a block equation.
 
 - intent: cretae_breadcrumb
-  example: |
+  examples: |
     - breadcrumb
     - Can I use breadcrumbs?
     - I want to create a breadcrumb.
 
 - intent: create_synced_block
-  example: |
+  examples: |
     - synced block
     - Can I use synced blocks?
     - Can I synchronize content?
@@ -547,7 +547,7 @@ nlu:
     - synchronize content across pages
 
 - intent: create_toggle_heading
-  example: |
+  examples: |
     - toggle heading
     - Can I create a toggle heading?
     - toggle heading 1
