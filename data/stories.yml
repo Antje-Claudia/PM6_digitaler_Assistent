@@ -95,7 +95,6 @@ stories:
   - action: utter_welcome_start_tutorial
   - action: utter_request_basic_functions
   - intent: basic_functions_notion
-  - action: utter_list_basic_functions
 
 - story: start tutorial new page
   steps:

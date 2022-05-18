@@ -118,10 +118,14 @@ responses:
   - text: "You would like to take your first steps in Notion? Welcome to YOUR start tutorial!"
 
   utter_request_basic_functions:
-  - text: "At first I would like to show you an overview over the top 3 basic functions. Please type -basic functions- to get to know them."
-
-  utter_list_basic_functions:
-  - text: "The top 3 basic functions are: 1. new page, 2. structure of notion, 3. templates! Please tell me about which element you would like to know more."
+  - text: "At first I would like to show you an overview over the top 3 basic functions. Please choose the function you would like to learn more about!"
+    buttons:
+    - title: "new page"
+      payload: "new page"
+    - title: "structure"
+      payload: "structure"
+    - title: "templates"
+      payload: "templates"
 
   utter_tutorial_new_page1:
   - text: "To create a new page click on +Add a page, in the left menu bar."
