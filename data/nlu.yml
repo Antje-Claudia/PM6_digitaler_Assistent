@@ -277,7 +277,6 @@ nlu:
     - Trello 
     - How can I embed a PDF?
     - How can I embed from another programm?
-=======
     
 - intent: use_text
   examples: |
@@ -520,3 +519,37 @@ nlu:
   examples: |
     - What is your purpose?
     - What is your use?
+
+- intent: create_table_of_content
+  examples: |
+    - create table of content
+    - table of content
+    - Can I create a table of content?
+
+- intent: create_block_equation
+  examples: |
+    - create block equation
+    - block equation
+    - I want to use a block equation.
+
+- intent: cretae_breadcrumb
+  examples: |
+    - breadcrumb
+    - Can I use breadcrumbs?
+    - I want to create a breadcrumb.
+
+- intent: create_synced_block
+  examples: |
+    - synced block
+    - Can I use synced blocks?
+    - Can I synchronize content?
+    - Can I synchronize content across pages?
+    - synchronize content across pages
+
+- intent: create_toggle_heading
+  examples: |
+    - toggle heading
+    - Can I create a toggle heading?
+    - toggle heading 1
+    - toggle heading 2
+    - toggle heading 3

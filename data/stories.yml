@@ -273,3 +273,32 @@ stories:
   - action: utter_presentation_develop
   - intent: presentation_skills
   - action: utter_presentation_skills
+
+- story: table of content
+  steps:
+  - intent: create_table_of_content
+  - action: utter_overview_table_of_content1
+  - action: utter_overview_table_of_content2
+  - action: utter_overview_table_of_content3
+
+- story: block equation
+  steps:
+  - intent: create_block_equation
+  - action: utter_overview_block_equation1
+  - action: utter_overview_block_equation2
+
+- story: breadcrumb
+  steps:
+  - intent: create_breadcrumb
+  - action: utter_overview_breadcrumb1
+  - action: utter_overview_breadcrumb2
+
+- story: synced block
+  steps:
+  - intent: create_synced_block
+  - action: utter_overview_synced_block1
+  - action: utter_overview_synced_block2
+
+- story: toggle heading
+  steps:
+  - intent: create_toggle_heading

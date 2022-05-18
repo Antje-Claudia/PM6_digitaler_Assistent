@@ -49,6 +49,11 @@ intents:
   - presentation_skills
   - presentation_who
   - presentation_develop
+  - create_table_of_content
+  - create_block_equation
+  - create_breadcrumb
+  - create_synced_block
+  - create_toggle_heading
 
 responses:
   utter_greet:
@@ -327,6 +332,45 @@ responses:
 
   utter_presentation_skills:
   - text: "That's what my developers are now telling you in the presentation.\n\nEnjoy the journey of my creation.🥳"
+
+  utter_overview_table_of_content1:
+  - text: "With the function -table of content- you can clearly display the content of the page."
+
+  utter_overview_table_of_content2:
+  - text: "You can list the headlines used, with indentations depending on the size of the headline."
+
+  utter_overview_table_of_content3:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Table of content-!"
+
+  utter_overview_block_equation1:
+  - text: "You can represent mathematical calculations using block equations."
+
+  utter_overview_block_equation2:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Block equation-!"
+
+  utter_overview_breadcrumb1:
+  - text: "You want to show where you are on the page? Then use the breadcrumbs!"
+
+  utter_overview_breadcrumb2:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Breadcrumbs-!"
+
+  utter_overview_synced_block1:
+  - text: "You want to synchronize content across multiple pages? Then use the function -synced block-!"
+
+  utter_overview_synced_block2:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Synced block-!"
+
+  utter_overview_toggle_heading1:
+  - text: "Did you know that you can also use headlines as toggles?"
+
+  utter_overview_toggle_heading2:
+  - text: "Take a look at the function -toggle heading-."
+
+  utter_overview_toggle_heading3:
+  - text: "It comes in the sizes h1, h2 and h3."
+
+  utter_overview_toggle_heading4:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Toggle heading-!"
 
 session_config:
   session_expiration_time: 60
