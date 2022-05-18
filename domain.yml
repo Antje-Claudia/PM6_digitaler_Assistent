@@ -24,6 +24,18 @@ intents:
   - structure_of_notion
   - templates
   - use_media
+  - use_text
+  - use_sub-page
+  - use_to_do_list
+  - use_heading
+  - use_table
+  - use_bullet_list
+  - use_numbered_list
+  - use_toggle_list
+  - use_quotes
+  - use_divider
+  - use_link
+  - use_callout
   - create_calendar
   - create_kanban_board
   - create_gallery
@@ -167,6 +179,42 @@ responses:
 
   utter_information_media5:
   - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
+
+  utter_use_text:
+  - text: "To use text ✒️, you need to type / and select the Text-Option in Notion. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. Then you'll see options like bold, italic and more."
+
+  utter_use_sub-page:
+  - text: "To embed a sub-page 📄 inside your page, you need to type / and select the Page-Option. \n \n A new page will open automatically. \n\n You can refind this page inside your main-page and it also appears in the left menu bar if the main page is further expanded there."
+
+  utter_use_to_do_list:
+  - text: "You can create To-do lists 🗒️ in Notion to organize your life. \n\n You need to type / and select the To-do list - Option. If items inside your To-do list are done, you can tick it and the text will automatically be crossed."
+
+  utter_use_heading:
+  - text: "To create a heading 🔤 inside your page, you need to type / and select the correct Option. \n\n You can choose between big (h1), medium (h2) and small (h3) section headings."
+
+  utter_use_table:
+  - text: "In Notion, you have the option to embed simple tables 📐. \n\n To do so, you just have to type / and select the table-option. \n \n If the table is created, different format-options will appear. You can add more columns and lines, add headings, change the size and much more."
+
+  utter_use_bullet_list:
+  - text: "To create a Bulleted list ⚫, you have to type / and choose the correct option. \n \n The list can be formatted with indentation using the tab key." 
+
+  utter_use_numbered_list:
+  - text: "To create a Numbered list 🔢, you have to type / and select the correct option. \n \n The list can be formatted with indentation using the tab key. \n\n You can use different list formats like numbers, letters and roman numerals."  
+
+  utter_use_toggle_list:
+  - text: "To create a Toggle list 🔻, you have to type / and choose the correct option. \n\n If you click on the toggles, content can be hidden or displayed."  
+
+  utter_use_quotes:
+  - text: "To create a Quote in Notion 💬, you have to type / and choose the quote-option. \n \n A special format will appear and you can insert anything you want" 
+
+  utter_use_divider:
+  - text: "Dividers are thin lines, which you can use in Notion to seperate content inside your pages. \n\n To create a divider 📏, you have to type / and choose the divider-option."  
+
+  utter_use_link:
+  - text: "You can use links 🔗 to connect different pages inside your Notion. \n \n To create such a link 🔗, you have to type / and choose the link-option."  
+
+  utter_use_callout:
+  - text: "Callouts 📍 are special Highlights, you can style your content with.\n \n The text will get a block with a special color. \n\n To create a Callout in Notion, you have to type / and choose the callout-option. Every Callout is styled with an Icon, which you can change."  
 
   utter_pros_on_databases1:
   - text: "Databases in Notion are great! There are some basic facts about them:"

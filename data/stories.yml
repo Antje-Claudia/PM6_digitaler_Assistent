@@ -131,6 +131,66 @@ stories:
   - action: utter_information_media4
   - action: utter_information_media5
 
+- story: use text in Notion
+  steps:
+  - intent: use_text
+  - action: utter_use_text  
+
+- story: use sub-pages in Notion
+  steps:
+  - intent: use_sub-page
+  - action: utter_use_sub-page
+
+- story: use To-do list in Notion
+  steps:
+  - intent: use_to_do_list
+  - action: utter_use_to_do_list
+
+- story: use headings in Notion
+  steps:
+  - intent: use_heading
+  - action: utter_use_heading
+
+- story: use tables in Notion
+  steps:
+  - intent: use_table
+  - action: utter_use_table
+
+- story: use bulleted list
+  steps:
+  - intent: use_bullet_list
+  - action: utter_use_bullet_list
+
+- story: use numbered list
+  steps:
+  - intent: use_numbered_list
+  - action: utter_use_numbered_list
+
+- story: use toggle list
+  steps:
+  - intent: use_toggle_list
+  - action: utter_use_toggle_list
+
+- story: use quotes
+  steps:
+  - intent: use_quotes
+  - action: utter_use_quotes
+
+- story: use dividers
+  steps:
+  - intent: use_divider
+  - action: utter_use_divider
+
+- story: use links
+  steps:
+  - intent: use_link
+  - action: utter_use_link
+
+- story: use callouts
+  steps:
+  - intent: use_callout
+  - action: utter_use_callout
+
 - story: information about databases
   steps:
   - intent: database
