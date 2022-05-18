@@ -372,7 +372,6 @@ responses:
   utter_overview_toggle_heading4:
   - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Toggle heading-!"
 
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
