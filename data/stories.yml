@@ -306,3 +306,4 @@ stories:
 - story: mention a person
   steps: 
   - intent: mention_a_person
+  - action: utter_mention_a_person
