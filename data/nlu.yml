@@ -248,6 +248,36 @@ nlu:
     - How can I use images in Notion?
     - How can I use videos in Notion?
     - How can I use audio in Notion?
+
+- intent: embeds
+  examples: |
+    - Google Drive
+    - Tweet
+    - GitHub Gist 
+    - Google Maps
+    - Figma
+    - Abstract
+    - Invision
+    - Framer
+    - Whimsical
+    - Miro
+    - Sketch
+    - Excalidraw
+    - PDF
+    - Loom
+    - Typeform
+    - Code Pen
+    - Replit
+    - Hex
+    - Deepnote
+    - GitHub
+    - Jira
+    - Slack
+    - Asana
+    - Trello 
+    - How can I embed a PDF?
+    - How can I embed from another programm?
+=======
     
 - intent: use_text
   examples: |
@@ -490,4 +520,3 @@ nlu:
   examples: |
     - What is your purpose?
     - What is your use?
-

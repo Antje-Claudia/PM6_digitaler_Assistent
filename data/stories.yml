@@ -131,6 +131,11 @@ stories:
   - action: utter_information_media4
   - action: utter_information_media5
 
+- story: embed different files
+  steps:
+  - intent: embeds
+  - action: utter_embeds
+
 - story: use text in Notion
   steps:
   - intent: use_text

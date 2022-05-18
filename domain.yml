@@ -24,6 +24,7 @@ intents:
   - structure_of_notion
   - templates
   - use_media
+  - embeds
   - use_text
   - use_sub-page
   - use_to_do_list
@@ -179,6 +180,9 @@ responses:
 
   utter_information_media5:
   - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
+
+  utter_embeds:
+  - text: "When you want to embed a PDF or another file from an external programm, follow the following steps:\n\n1. Click on the Notion Page where the external file should appear.\n \n2. For example type: /pdf\n \nto bring up the option to embed a external file.\n \nFor pdf you can substitute any file."
 
   utter_use_text:
   - text: "To use text ✒️, you need to type / and select the Text-Option in Notion. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. Then you'll see options like bold, italic and more."
