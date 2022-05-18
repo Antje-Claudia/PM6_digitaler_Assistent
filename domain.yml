@@ -373,8 +373,8 @@ responses:
   utter_overview_toggle_heading4:
   - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Toggle heading-!"
 
-  - utter_mention_a_person: 
-    text: "if you type @, it will show you all the people linked to Notion. A person will be notified as soon as they are linked. "
+  utter_mention_a_person: 
+  - text: "if you type @, it will show you all the people linked to Notion. A person will be notified as soon as they are linked. "
 
 session_config:
   session_expiration_time: 60
