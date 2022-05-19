@@ -93,19 +93,19 @@ responses:
   - text: "◼ You are new to Notion?\n \n--> Type *-start tutorial-* and I will tell you something about the basic functions.\n \n◼ You feel a little lost in Notion?\n \n--> Type *-structure-* and I will help you.\n \n◼ You want to create a new page in Notion?\n \n--> Type *-new page-* and I will explain it to you.\n \n ◼ You want to use a template for a page?\n \n--> Type *-templates-* and I can show you!"
 
   utter_userrole_help:
-  - text: "Hey, which User Role do you have?\n\nDepending on the User Role you will have a different access to our Features.\n\n To get more informations write one of the following statements, depending on your role.\n\n -Personal User-\n\n -Profesional User-\n\n -small Team-\n\n -Company-"
+  - text: "Hey, which User Role do you have?\n\nDepending on the User Role you will get a different access to our features.\n\n To get more information write one of the following statements - depending on your role.\n\n -Personal User-\n\n -Professional User-\n\n -Small Team-\n\n -Company-"
 
   utter_userrole_personalUser:
-  - text: "Personal User\n\n- Your Account will be free\n \n- Unlimited pages & blocks\n \n- Share with 5 guests\n \n- Sync across devices\n \n- API\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Personal User\n\n- Your account will be free\n \n- Unlimited pages & blocks\n \n- Share with 5 guests\n \n- Sync across devices\n \n- API\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_profesionalUser:
-  - text: "Profesional User\n\n- Your Account are $4 per month\n \n- Everything in Personal User\n \n- Unlimited file uploads\n \n- Unlimited guests\n \n- 30 day version history\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Professional User\n\n- Your account costs $4 per month\n \n- All the features of the personal user\n \n- Unlimited file uploads\n \n- Unlimited guests\n \n- 30 day version history\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_smallTeam:
-  - text: "small Team\n\n- Your Account are $8 per month\n \n- Everything in Profesional User\n \n- Unlimited team members\n \n- Collaborative workspace\n \n- Sharing permissions\n \n- Admin tools\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Small Team\n\n- Your account costs $8 per month\n \n- All the features of the professional user\n \n- Unlimited team members\n \n- Collaborative workspace\n \n- Sharing permissions\n \n- Admin tools\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_company:
-  - text: "Company\n\n- Contact the sales team for the price\n \n- Everything in small Team\n \n- SAML SSO\n \n- Advanced security & controls\n \n- Custom contract\n \n- Unlimited Version history\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Company\n\n- Contact the sales team for the price\n \n- All the features of the small team\n \n- SAML SSO\n \n- Advanced security & controls\n \n- Custom contract\n \n- Unlimited version history\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_instructions_remove_account1:
   - text: "Go to -Setting & Members- and click -My account- at the top of the sidebar."
