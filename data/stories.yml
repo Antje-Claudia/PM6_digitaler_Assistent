@@ -56,7 +56,7 @@ stories:
   steps:
   - intent: asking_userrole
   - action: utter_userrole_help
-  - intent: userrole_profesionalUser
+  - intent: userrole_professionalUser
   - action: utter_userrole_profesionalUser
 
 - story: asking for userrole (small Team)

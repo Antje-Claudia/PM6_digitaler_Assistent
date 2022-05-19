@@ -193,10 +193,10 @@ responses:
   - text: "1. Image\n \n2. Web bookmark\n \n3. Video\n \n4. Audio\n \n5. Code\n \n6. File"
 
   utter_information_media5:
-  - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
+  - text: "If you need more information how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
 
   utter_embeds:
-  - text: "When you want to embed a PDF or another file from an external programm, follow the following steps:\n\n1. Click on the Notion Page where the external file should appear.\n \n2. For example type: /pdf\n \nto bring up the option to embed a external file.\n \nFor pdf you can substitute any file."
+  - text: "When you want to embed a PDF or another file from an external programm, follow the following steps:\n\n1. Click on the Notion Page where the external file should appear.\n \n2. For example type: /pdf to bring up the option to embed a external file.\n \nFor pdf you can substitute any file."
 
   utter_use_text:
   - text: "To use text ✒️, you need to type / and select the Text-Option in Notion. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. Then you'll see options like bold, italic and more."
@@ -358,7 +358,7 @@ responses:
   - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Block equation-!"
 
   utter_overview_breadcrumb1:
-  - text: "You want to show where you are on the page? Then use the breadcrumbs!"
+  - text: "You want to see where you are on the page? Then use the breadcrumbs!"
 
   utter_overview_breadcrumb2:
   - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Breadcrumbs-!"
