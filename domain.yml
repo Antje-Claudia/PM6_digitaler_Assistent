@@ -378,19 +378,19 @@ responses:
   - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Toggle heading-!"
 
   utter_mention_a_person: 
-  - text: "if you type @, it will show you all the people linked to Notion. A person will be notified as soon as they are linked."
+  - text: "If you type @, it will show you a list of the people linked to your Notion workspace. A person will be notified as soon as they are linked."
 
   utter_mention_differnt_page: 
-  - text: "a page can be linked with @. This will be embedded in the text and you can continue writing directly behind it."
+  - text: "A page can be linked with @. This will be embedded in the text and you can continue writing directly behind it."
 
   utter_date_or_reminder: 
-  - text: "with this inline blog a date can be selected. by setting it, a date reminder will be created."
+  - text: "With this inline blog a date can be selected. by setting it, a date reminder will be created."
 
   utter_insert_emoji: 
-  - text: "with this inline blog you can search for the matching emoji and embed it right away."
+  - text: "With this inline block, you can search for the matching emoji and embed it right away."
 
   utter_inline_equation:
-  - text: "with this inline blog mathematical symbols can be embedded right into the text."
+  - text: "With the inline block, mathematical symbols can be embedded right into the text."
 
 session_config:
   session_expiration_time: 60
