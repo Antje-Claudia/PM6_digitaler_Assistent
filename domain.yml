@@ -13,7 +13,7 @@ intents:
   - operating_help
   - asking_userrole
   - userrole_personalUser
-  - userrole_profesionalUser
+  - userrole_professionalUser
   - userrole_smallTeam
   - userrole_company
   - delete_account
