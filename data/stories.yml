@@ -301,6 +301,26 @@ stories:
 - story: toggle heading
   steps:
   - intent: create_toggle_heading
+
+- story: mention a person
+  steps:
+  - intent: mention_a_person
+  - action: utter_mention_a_person
+
+- story: date or reminder
+  steps:
+  - intent: date_or_reminder
+  - action: utter_date_or_reminder 
+
+- story: insert emoji
+  steps: 
+  - intent: insert_emoji
+  - action: utter_insert_emoji
+
+- story: inline equation
+  steps: 
+  - intent: inline_equation 
+  - action: utter_inline_equation
   - action: utter_overview_toggle_heading1
   - action: utter_overview_toggle_heading2
   - action: utter_overview_toggle_heading3

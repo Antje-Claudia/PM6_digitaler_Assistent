@@ -553,3 +553,31 @@ nlu:
     - toggle heading 1
     - toggle heading 2
     - toggle heading 3
+
+- intent: mention_a_person
+  examples: |
+    - mention a person 
+    - Can I mention a person?
+
+- intent: mention_a_page
+  examples: |
+    - How can I mention a different page?
+    - mention different page
+
+- intent: date_or_reminder
+  examples: |
+    - I always forget the date.
+    - Is there a date reminder? 
+    - What is the date reminder?
+
+- intent: insert_emoji
+  examples: |
+    - I want to insert an emoji.
+    - How do i find the right emoji?
+    - inline block emoji
+
+- intent: inline_equation
+  examples: |
+    - What is inline equation?
+    - How to insert maths symbols?
+    - How can I insert maths symbols?
