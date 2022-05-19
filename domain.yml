@@ -136,31 +136,31 @@ responses:
   - text: "To create a new page click on +Add a page, in the left menu bar."
 
   utter_tutorial_new_page2:
-  - text: "Now, a new, blank page is created. Add a title to the line untitled and press enter."
+  - text: "Now a new, blank page is created. Add a title to the line untitled and press enter."
 
   utter_tutorial_new_page3:
   - text: "Your page is now created and you can fill it with your personal content! If you need more information please visit https://www.notion.so/help/guides/creating-a-page!"
 
   utter_tutorial_structure1:
-  - text: "Did you know that notion is structured in blocks? You can see am overview when you type a slash."
+  - text: "Did you know that notion is structured in blocks? You can see an overview when you type a slash."
 
   utter_tutorial_structure2:
   - text: "Why don't you try to use some blocks by yourself?"
 
   utter_tutorial_structure3:
-  - text: "To do so click on an element in the list, which appears after you type the slash."
+  - text: "To do so, click on an element in the list, which appears after you type the slash."
 
   utter_tutorial_structure4:
-  - text: "You need more information about the structure? I reccomend to visit https://www.notion.so/help/what-is-a-block!"
+  - text: "You need more information about the structure? I recommend a visit at https://www.notion.so/help/what-is-a-block!"
 
   utter_tutorial_templates1:
-  - text: "There are two ways for using a template:"
+  - text: "There are two ways to use a template:"
 
   utter_tutorial_templates2:
   - text: "1. You click on templates in the left menu bar."
 
   utter_tutorial_templates3:
-  - text: "2. While creating a new page, you can choose templates after you choose your title."
+  - text: "2. While creating a new page, you can choose templates after you chose your title."
 
   utter_tutorial_templates4:
   - text: "There are free and paid templates. You can choose them in the template gallery on https://www.notion.so/templates!"
