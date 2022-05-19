@@ -56,7 +56,7 @@ stories:
   steps:
   - intent: asking_userrole
   - action: utter_userrole_help
-  - intent: userrole_profesionalUser
+  - intent: userrole_professionalUser
   - action: utter_userrole_profesionalUser
 
 - story: asking for userrole (small Team)
@@ -95,7 +95,6 @@ stories:
   - action: utter_welcome_start_tutorial
   - action: utter_request_basic_functions
   - intent: basic_functions_notion
-  - action: utter_list_basic_functions
 
 - story: start tutorial new page
   steps:
@@ -130,3 +129,199 @@ stories:
   - action: utter_information_media3
   - action: utter_information_media4
   - action: utter_information_media5
+
+- story: embed different files
+  steps:
+  - intent: embeds
+  - action: utter_embeds
+
+- story: use text in Notion
+  steps:
+  - intent: use_text
+  - action: utter_use_text  
+
+- story: use sub-pages in Notion
+  steps:
+  - intent: use_sub-page
+  - action: utter_use_sub-page
+
+- story: use To-do list in Notion
+  steps:
+  - intent: use_to_do_list
+  - action: utter_use_to_do_list
+
+- story: use headings in Notion
+  steps:
+  - intent: use_heading
+  - action: utter_use_heading
+
+- story: use tables in Notion
+  steps:
+  - intent: use_table
+  - action: utter_use_table
+
+- story: use bulleted list
+  steps:
+  - intent: use_bullet_list
+  - action: utter_use_bullet_list
+
+- story: use numbered list
+  steps:
+  - intent: use_numbered_list
+  - action: utter_use_numbered_list
+
+- story: use toggle list
+  steps:
+  - intent: use_toggle_list
+  - action: utter_use_toggle_list
+
+- story: use quotes
+  steps:
+  - intent: use_quotes
+  - action: utter_use_quotes
+
+- story: use dividers
+  steps:
+  - intent: use_divider
+  - action: utter_use_divider
+
+- story: use links
+  steps:
+  - intent: use_link
+  - action: utter_use_link
+
+- story: use callouts
+  steps:
+  - intent: use_callout
+  - action: utter_use_callout
+
+- story: information about databases
+  steps:
+  - intent: database
+  - action: utter_pros_on_databases1
+  - action: utter_pros_on_databases2
+  - action: utter_pros_on_databases3
+  - action: utter_pros_on_databases4
+  - action: utter_overview_database1
+  - action: utter_overview_database2
+  - action: utter_overview_database3
+  - action: utter_overview_database4
+
+- story: calendar database
+  steps:
+  - intent: create_calendar
+  - action: utter_overview_calendar_database1
+  - action: utter_overview_calendar_database2
+  - action: utter_overview_calendar_database3
+
+- story: kanban board database
+  steps:
+  - intent: create_kanban_board
+  - action: utter_overview_kanban_database1
+  - action: utter_overview_kanban_database2
+  - action: utter_overview_kanban_database3
+
+- story: gallery database
+  steps:
+  - intent: create_gallery
+  - action: utter_overview_gallery_database1
+  - action: utter_overview_gallery_database2
+  - action: utter_overview_gallery_database3
+
+- story: list view database
+  steps:
+  - intent: create_list_view
+  - action: utter_overview_list_view_database1
+  - action: utter_overview_list_view_database2
+  - action: utter_overview_list_view_database3
+
+- story: timeline database
+  steps:
+  - intent: create_timeline
+  - action: utter_overview_timeline_database1
+  - action: utter_overview_timeline_database2
+  - action: utter_overview_timeline_database3
+
+- story: full page database
+  steps:
+  - intent: database_full_page
+  - action: utter_overview_database_full_page1
+  - action: utter_overview_database_full_page2
+  - action: utter_overview_database_full_page3
+  - action: utter_overview_database_full_page4
+
+- story: inline database
+  steps:
+  - intent: database_inline
+  - action: utter_overview_database_inline1
+  - action: utter_overview_database_inline2
+  - action: utter_overview_database_inline3
+
+- story: linked view database
+  steps:
+  - intent: database_link
+  - action: utter_overview_database_linked1
+  - action: utter_overview_database_linked2
+  - action: utter_overview_database_linked3
+
+- story: Presentation of the bot
+  steps:
+  - intent: presentation_who
+  - action: utter_presentation_who
+  - intent: presentation_develop
+  - action: utter_presentation_develop
+  - intent: presentation_skills
+  - action: utter_presentation_skills
+
+- story: table of content
+  steps:
+  - intent: create_table_of_content
+  - action: utter_overview_table_of_content1
+  - action: utter_overview_table_of_content2
+  - action: utter_overview_table_of_content3
+
+- story: block equation
+  steps:
+  - intent: create_block_equation
+  - action: utter_overview_block_equation1
+  - action: utter_overview_block_equation2
+
+- story: breadcrumb
+  steps:
+  - intent: create_breadcrumb
+  - action: utter_overview_breadcrumb1
+  - action: utter_overview_breadcrumb2
+
+- story: synced block
+  steps:
+  - intent: create_synced_block
+  - action: utter_overview_synced_block1
+  - action: utter_overview_synced_block2
+
+- story: toggle heading
+  steps:
+  - intent: create_toggle_heading
+
+- story: mention a person
+  steps:
+  - intent: mention_a_person
+  - action: utter_mention_a_person
+
+- story: date or reminder
+  steps:
+  - intent: date_or_reminder
+  - action: utter_date_or_reminder 
+
+- story: insert emoji
+  steps: 
+  - intent: insert_emoji
+  - action: utter_insert_emoji
+
+- story: inline equation
+  steps: 
+  - intent: inline_equation 
+  - action: utter_inline_equation
+  - action: utter_overview_toggle_heading1
+  - action: utter_overview_toggle_heading2
+  - action: utter_overview_toggle_heading3
+  - action: utter_overview_toggle_heading4

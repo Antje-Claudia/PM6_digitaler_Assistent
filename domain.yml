@@ -13,7 +13,7 @@ intents:
   - operating_help
   - asking_userrole
   - userrole_personalUser
-  - userrole_profesionalUser
+  - userrole_professionalUser
   - userrole_smallTeam
   - userrole_company
   - delete_account
@@ -24,6 +24,41 @@ intents:
   - structure_of_notion
   - templates
   - use_media
+  - embeds
+  - use_text
+  - use_sub-page
+  - use_to_do_list
+  - use_heading
+  - use_table
+  - use_bullet_list
+  - use_numbered_list
+  - use_toggle_list
+  - use_quotes
+  - use_divider
+  - use_link
+  - use_callout
+  - create_calendar
+  - create_kanban_board
+  - create_gallery
+  - create_list_view
+  - create_timeline
+  - database
+  - database_full_page
+  - database_inline
+  - database_link
+  - presentation_skills
+  - presentation_who
+  - presentation_develop
+  - create_table_of_content
+  - create_block_equation
+  - create_breadcrumb
+  - create_synced_block
+  - create_toggle_heading
+  - mention_a_person
+  - mention_a_different_page 
+  - date_or_reminder
+  - insert_emoji
+  - inline_equation
 
 responses:
   utter_greet:
@@ -58,19 +93,19 @@ responses:
   - text: "◼ You are new to Notion?\n \n--> Type *-start tutorial-* and I will tell you something about the basic functions.\n \n◼ You feel a little lost in Notion?\n \n--> Type *-structure-* and I will help you.\n \n◼ You want to create a new page in Notion?\n \n--> Type *-new page-* and I will explain it to you.\n \n ◼ You want to use a template for a page?\n \n--> Type *-templates-* and I can show you!"
 
   utter_userrole_help:
-  - text: "Hey, which User Role do you have?\n\nDepending on the User Role you will have a different access to our Features.\n\n To get more informations write one of the following statements, depending on your role.\n\n -Personal User-\n\n -Profesional User-\n\n -small Team-\n\n -Company-"
+  - text: "Hey, which User Role do you have?\n\nDepending on the User Role you will get a different access to our features.\n\n To get more information write one of the following statements - depending on your role.\n\n -Personal User-\n\n -Professional User-\n\n -Small Team-\n\n -Company-"
 
   utter_userrole_personalUser:
-  - text: "Personal User\n\n- Your Account will be free\n \n- Unlimited pages & blocks\n \n- Share with 5 guests\n \n- Sync across devices\n \n- API\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Personal User\n\n- Your account will be free\n \n- Unlimited pages & blocks\n \n- Share with 5 guests\n \n- Sync across devices\n \n- API\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_profesionalUser:
-  - text: "Profesional User\n\n- Your Account are $4 per month\n \n- Everything in Personal User\n \n- Unlimited file uploads\n \n- Unlimited guests\n \n- 30 day version history\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Professional User\n\n- Your account costs $4 per month\n \n- All the features of the personal user\n \n- Unlimited file uploads\n \n- Unlimited guests\n \n- 30 day version history\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_smallTeam:
-  - text: "small Team\n\n- Your Account are $8 per month\n \n- Everything in Profesional User\n \n- Unlimited team members\n \n- Collaborative workspace\n \n- Sharing permissions\n \n- Admin tools\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Small Team\n\n- Your account costs $8 per month\n \n- All the features of the professional user\n \n- Unlimited team members\n \n- Collaborative workspace\n \n- Sharing permissions\n \n- Admin tools\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_company:
-  - text: "Company\n\n- Contact the sales team for the price\n \n- Everything in small Team\n \n- SAML SSO\n \n- Advanced security & controls\n \n- Custom contract\n \n- Unlimited Version history\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Company\n\n- Contact the sales team for the price\n \n- All the features of the small team\n \n- SAML SSO\n \n- Advanced security & controls\n \n- Custom contract\n \n- Unlimited version history\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_instructions_remove_account1:
   - text: "Go to -Setting & Members- and click -My account- at the top of the sidebar."
@@ -88,40 +123,44 @@ responses:
   - text: "You would like to take your first steps in Notion? Welcome to YOUR start tutorial!"
 
   utter_request_basic_functions:
-  - text: "At first I would like to show you an overview over the top 3 basic functions. Please type -basic functions- to get to know them."
-
-  utter_list_basic_functions:
-  - text: "The top 3 basic functions are: 1. new page, 2. structure of notion, 3. templates! Please tell me about which element you would like to know more."
+  - text: "At first I would like to show you an overview over the top 3 basic functions. Please choose the function you would like to learn more about!"
+    buttons:
+    - title: "new page"
+      payload: "new page"
+    - title: "structure"
+      payload: "structure"
+    - title: "templates"
+      payload: "templates"
 
   utter_tutorial_new_page1:
   - text: "To create a new page click on +Add a page, in the left menu bar."
 
   utter_tutorial_new_page2:
-  - text: "Now, a new, blank page is created. Add a title to the line untitled and press enter."
+  - text: "Now a new, blank page is created. Add a title to the line untitled and press enter."
 
   utter_tutorial_new_page3:
   - text: "Your page is now created and you can fill it with your personal content! If you need more information please visit https://www.notion.so/help/guides/creating-a-page!"
 
   utter_tutorial_structure1:
-  - text: "Did you know that notion is structured in blocks? You can see am overview when you type a slash."
+  - text: "Did you know that notion is structured in blocks? You can see an overview when you type a slash."
 
   utter_tutorial_structure2:
   - text: "Why don't you try to use some blocks by yourself?"
 
   utter_tutorial_structure3:
-  - text: "To do so click on an element in the list, which appears after you type the slash."
+  - text: "To do so, click on an element in the list, which appears after you type the slash."
 
   utter_tutorial_structure4:
-  - text: "You need more information about the structure? I reccomend to visit https://www.notion.so/help/what-is-a-block!"
+  - text: "You need more information about the structure? I recommend a visit at https://www.notion.so/help/what-is-a-block!"
 
   utter_tutorial_templates1:
-  - text: "There are two ways for using a template:"
+  - text: "There are two ways to use a template:"
 
   utter_tutorial_templates2:
   - text: "1. You click on templates in the left menu bar."
 
   utter_tutorial_templates3:
-  - text: "2. While creating a new page, you can choose templates after you choose your title."
+  - text: "2. While creating a new page, you can choose templates after you chose your title."
 
   utter_tutorial_templates4:
   - text: "There are free and paid templates. You can choose them in the template gallery on https://www.notion.so/templates!"
@@ -136,7 +175,7 @@ responses:
   - text: "There are different products for different requests, like notion for enterprise, notion for small business or notion for education."
 
   utter_overview_notion3:
-  - text: "You can find information in the blog or help center, start your work witj webinars and tutorials or explore the nearly endless world of templates!"
+  - text: "You can find information in the blog or help center, start your work with webinars and tutorials or explore the nearly endless world of templates!"
 
   utter_overview_notion4:
   - text: "Sounds good? Then visit https://www.notion.so/."
@@ -154,7 +193,208 @@ responses:
   - text: "1. Image\n \n2. Web bookmark\n \n3. Video\n \n4. Audio\n \n5. Code\n \n6. File"
 
   utter_information_media5:
-  - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
+  - text: "If you need more information how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
+
+  utter_embeds:
+  - text: "When you want to embed a PDF or another file from an external programm, follow the following steps:\n\n1. Click on the Notion Page where the external file should appear.\n \n2. For example type: /pdf to bring up the option to embed a external file.\n \nFor pdf you can substitute any file."
+
+  utter_use_text:
+  - text: "To use text ✒️, you need to type / and select the Text-Option in Notion. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. Then you'll see options like bold, italic and more."
+
+  utter_use_sub-page:
+  - text: "To embed a sub-page 📄 inside your page, you need to type / and select the Page-Option. \n \n A new page will open automatically. \n\n You can refind this page inside your main-page and it also appears in the left menu bar if the main page is further expanded there."
+
+  utter_use_to_do_list:
+  - text: "You can create To-do lists 🗒️ in Notion to organize your life. \n\n You need to type / and select the To-do list - Option. If items inside your To-do list are done, you can tick it and the text will automatically be crossed."
+
+  utter_use_heading:
+  - text: "To create a heading 🔤 inside your page, you need to type / and select the correct Option. \n\n You can choose between big (h1), medium (h2) and small (h3) section headings."
+
+  utter_use_table:
+  - text: "In Notion, you have the option to embed simple tables 📐. \n\n To do so, you just have to type / and select the table-option. \n \n If the table is created, different format-options will appear. You can add more columns and lines, add headings, change the size and much more."
+
+  utter_use_bullet_list:
+  - text: "To create a Bulleted list ⚫, you have to type / and choose the correct option. \n \n The list can be formatted with indentation using the tab key." 
+
+  utter_use_numbered_list:
+  - text: "To create a Numbered list 🔢, you have to type / and select the correct option. \n \n The list can be formatted with indentation using the tab key. \n\n You can use different list formats like numbers, letters and roman numerals."  
+
+  utter_use_toggle_list:
+  - text: "To create a Toggle list 🔻, you have to type / and choose the correct option. \n\n If you click on the toggles, content can be hidden or displayed."  
+
+  utter_use_quotes:
+  - text: "To create a Quote in Notion 💬, you have to type / and choose the quote-option. \n \n A special format will appear and you can insert anything you want" 
+
+  utter_use_divider:
+  - text: "Dividers are thin lines, which you can use in Notion to seperate content inside your pages. \n\n To create a divider 📏, you have to type / and choose the divider-option."  
+
+  utter_use_link:
+  - text: "You can use links 🔗 to connect different pages inside your Notion. \n \n To create such a link 🔗, you have to type / and choose the link-option."  
+
+  utter_use_callout:
+  - text: "Callouts 📍 are special Highlights, you can style your content with.\n \n The text will get a block with a special color. \n\n To create a Callout in Notion, you have to type / and choose the callout-option. Every Callout is styled with an Icon, which you can change."  
+
+  utter_pros_on_databases1:
+  - text: "Databases in Notion are great! There are some basic facts about them:"
+
+  utter_pros_on_databases2:
+  - text: "Every item is its own aditable page!"
+
+  utter_pros_on_databases3:
+  - text: "All properties are customizable!"
+
+  utter_pros_on_databases4:
+  - text: "There are multiple layouts, called -views- you can use for one database!"
+
+  utter_overview_database1:
+  - text: "In Notion you can use different types of databases. There are…"
+
+  utter_overview_database2:
+  - text: "1. Calendar database\n \n2. Canban Board database\n \n3. Gallery database\n \n4. List view database\n \n5. Timeline database"
+
+  utter_overview_database3:
+  - text: "You can create a database on a new full page or an inline database on the current page. It is also possible to link to an existing database."
+
+  utter_overview_database4:
+  - text: "Please tell me in which database you are interested in and I will be happy to help you!"
+
+  utter_overview_calendar_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Calendar view-!"
+
+  utter_overview_calendar_database2:
+  - text: "This action will create a calendar view of your data. Now you can visualize how database items connect to certain dates."
+
+  utter_overview_calendar_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/calendars."
+
+  utter_overview_kanban_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Board view-!"
+  
+  utter_overview_kanban_database2:
+  - text: "This action will create a board view of your data. You can create your own kanban board! "
+  
+  utter_overview_kanban_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/guides/board-view-databases."
+
+  utter_overview_gallery_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Gallery view-!"
+
+  utter_overview_gallery_database2:
+  - text: "This action will create a gallery view of your data, a perfect way to display your databases with visual components!"
+
+  utter_overview_gallery_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/galleries."
+
+  utter_overview_list_view_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -List view-!"
+
+  utter_overview_list_view_database2:
+  - text: "This action will create a list view of your data, a simple an minimalisitic view of databases."
+
+  utter_overview_list_view_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/lists."
+
+  utter_overview_timeline_database1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Timeline view-!"
+
+  utter_overview_timeline_database2:
+  - text: "This action will create a timeline for your data in chronological order."
+
+  utter_overview_timeline_database3:
+  - text: "If you need more information please visit https://www.notion.so/help/timelines."
+
+  utter_overview_database_full_page1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Database - Full page-!"
+
+  utter_overview_database_full_page2:
+  - text: "This action will create a new database on a sub page of your current page."
+
+  utter_overview_database_full_page3:
+  - text: "Your current page will refer to the new database."
+
+  utter_overview_database_full_page4:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_overview_database_linked1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Linked view of database-!"
+
+  utter_overview_database_linked2:
+  - text: "This action will create a link to another existing database."
+
+  utter_overview_database_linked3:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_overview_database_inline1:
+  - text: "Go to your page and type a slash. Scroll down until you reach the databases. Click on -Database - Inline-!"
+
+  utter_overview_database_inline2:
+  - text: "This action will create a new database on your current page."
+
+  utter_overview_database_inline3:
+  - text: "If you need more information please visit https://www.notion.so/help/intro-to-databases."
+
+  utter_presentation_who:
+  - text: "You don't know me yet, but I'm\n \nBOTion 🤖\n \nyour personal Notion assistant."
+
+  utter_presentation_develop:
+  - text: "I was developed by Group 6.\n \nThe members are:\n\n- Antje Schmollinger 👩‍💻\n \n- Julian Fleischmann 👨‍💻\n \n- Olga Merz 👩‍💻\n \n- Rosanna Wagner 👩‍💻\n \n- Anna-Lena Kubat 👩‍💻"
+
+  utter_presentation_skills:
+  - text: "That's what my developers are now telling you in the presentation.\n\nEnjoy the journey of my creation.🥳"
+
+  utter_overview_table_of_content1:
+  - text: "With the function -table of content- you can clearly display the content of the page."
+
+  utter_overview_table_of_content2:
+  - text: "You can list the headlines used, with indentations depending on the size of the headline."
+
+  utter_overview_table_of_content3:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Table of content-!"
+
+  utter_overview_block_equation1:
+  - text: "You can represent mathematical calculations using block equations."
+
+  utter_overview_block_equation2:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Block equation-!"
+
+  utter_overview_breadcrumb1:
+  - text: "You want to see where you are on the page? Then use the breadcrumbs!"
+
+  utter_overview_breadcrumb2:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Breadcrumbs-!"
+
+  utter_overview_synced_block1:
+  - text: "You want to synchronize content across multiple pages? Then use the function -synced block-!"
+
+  utter_overview_synced_block2:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Synced block-!"
+
+  utter_overview_toggle_heading1:
+  - text: "Did you know that you can also use headlines as toggles?"
+
+  utter_overview_toggle_heading2:
+  - text: "Take a look at the function -toggle heading-."
+
+  utter_overview_toggle_heading3:
+  - text: "It comes in the sizes h1, h2 and h3."
+
+  utter_overview_toggle_heading4:
+  - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Toggle heading-!"
+
+  utter_mention_a_person: 
+  - text: "If you type @, it will show you a list of the people linked to your Notion workspace. A person will be notified as soon as they are linked."
+
+  utter_mention_differnt_page: 
+  - text: "A page can be linked with @. This will be embedded in the text and you can continue writing directly behind it."
+
+  utter_date_or_reminder: 
+  - text: "With this inline blog a date can be selected. by setting it, a date reminder will be created."
+
+  utter_insert_emoji: 
+  - text: "With this inline block, you can search for the matching emoji and embed it right away."
+
+  utter_inline_equation:
+  - text: "With the inline block, mathematical symbols can be embedded right into the text."
 
 session_config:
   session_expiration_time: 60

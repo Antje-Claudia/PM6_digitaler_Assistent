@@ -35,9 +35,9 @@ docker run -it -p 8080:8080 rasa/rasa run --enable-api
 # 4. Container verlassen
 
 # 5. Dem Container externe Laufwerke hinzufügen, sowie die Port-Weiterleitung einrichten
-docker run -it -p 8080:8080 -v $(pwd):/app rasa/rasa run --enable-api --port 8080
+docker run -it -p 8080:8080 -v $(pwd):/app rasa/rasa run --enable-api --cors "*" --port 8080
 # Bzw. mit Windows Powershell
-docker run -it -p 8080:8080 -v ${pwd}:/app rasa/rasa run --enable-api --port 8080
+docker run -it -p 8080:8080 -v ${pwd}:/app rasa/rasa run --enable-api --cors "*" --port 8080
 ```
 
 #### Info:
