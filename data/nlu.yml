@@ -557,27 +557,27 @@ nlu:
 - intent: mention_a_person
   examples: |
     - mention a person 
-    - can I mention a person?
+    - Can I mention a person?
 
 - intent: mention_a_page
   examples: |
-    - how can I mention a different page
+    - How can I mention a different page?
     - mention different page
 
 - intent: date_or_reminder
   examples: |
-    - I always forget the date
-    - is there a date reminder 
-    - what is the date reminder?
+    - I always forget the date.
+    - Is there a date reminder? 
+    - What is the date reminder?
 
 - intent: insert_emoji
   examples: |
-    - want to insert an emoji
-    - how do i find the right emoji
+    - I want to insert an emoji.
+    - How do i find the right emoji?
     - inline block emoji
 
 - intent: inline_equation
   examples: |
-    - what is inline equation?
-    - how to insert maths symbols?
-    - how can I insert maths symbols?
+    - What is inline equation?
+    - How to insert maths symbols?
+    - How can I insert maths symbols?
