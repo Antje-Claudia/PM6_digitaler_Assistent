@@ -12,6 +12,11 @@
     background-color: var(--bs-secondary) !important;
 }
 
+.rw-reply {
+    background-color: var(--grpsix-bg-dark) !important;
+    border-color: var(--bs-secondary) !important;
+}
+
 .rw-client {
     background-color: var(--grpsix-bg-dark) !important;
 }

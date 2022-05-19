@@ -95,7 +95,6 @@ stories:
   - action: utter_welcome_start_tutorial
   - action: utter_request_basic_functions
   - intent: basic_functions_notion
-  - action: utter_list_basic_functions
 
 - story: start tutorial new page
   steps:
@@ -322,3 +321,7 @@ stories:
   steps: 
   - intent: inline_equation 
   - action: utter_inline_equation
+  - action: utter_overview_toggle_heading1
+  - action: utter_overview_toggle_heading2
+  - action: utter_overview_toggle_heading3
+  - action: utter_overview_toggle_heading4
