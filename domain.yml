@@ -13,7 +13,7 @@ intents:
   - operating_help
   - asking_userrole
   - userrole_personalUser
-  - userrole_profesionalUser
+  - userrole_professionalUser
   - userrole_smallTeam
   - userrole_company
   - delete_account
@@ -93,19 +93,19 @@ responses:
   - text: "◼ You are new to Notion?\n \n--> Type *-start tutorial-* and I will tell you something about the basic functions.\n \n◼ You feel a little lost in Notion?\n \n--> Type *-structure-* and I will help you.\n \n◼ You want to create a new page in Notion?\n \n--> Type *-new page-* and I will explain it to you.\n \n ◼ You want to use a template for a page?\n \n--> Type *-templates-* and I can show you!"
 
   utter_userrole_help:
-  - text: "Hey, which User Role do you have?\n\nDepending on the User Role you will have a different access to our Features.\n\n To get more informations write one of the following statements, depending on your role.\n\n -Personal User-\n\n -Profesional User-\n\n -small Team-\n\n -Company-"
+  - text: "Hey, which User Role do you have?\n\nDepending on the User Role you will get a different access to our features.\n\n To get more information write one of the following statements - depending on your role.\n\n -Personal User-\n\n -Professional User-\n\n -Small Team-\n\n -Company-"
 
   utter_userrole_personalUser:
-  - text: "Personal User\n\n- Your Account will be free\n \n- Unlimited pages & blocks\n \n- Share with 5 guests\n \n- Sync across devices\n \n- API\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Personal User\n\n- Your account will be free\n \n- Unlimited pages & blocks\n \n- Share with 5 guests\n \n- Sync across devices\n \n- API\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_profesionalUser:
-  - text: "Profesional User\n\n- Your Account are $4 per month\n \n- Everything in Personal User\n \n- Unlimited file uploads\n \n- Unlimited guests\n \n- 30 day version history\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Professional User\n\n- Your account costs $4 per month\n \n- All the features of the personal user\n \n- Unlimited file uploads\n \n- Unlimited guests\n \n- 30 day version history\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_smallTeam:
-  - text: "small Team\n\n- Your Account are $8 per month\n \n- Everything in Profesional User\n \n- Unlimited team members\n \n- Collaborative workspace\n \n- Sharing permissions\n \n- Admin tools\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Small Team\n\n- Your account costs $8 per month\n \n- All the features of the professional user\n \n- Unlimited team members\n \n- Collaborative workspace\n \n- Sharing permissions\n \n- Admin tools\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_userrole_company:
-  - text: "Company\n\n- Contact the sales team for the price\n \n- Everything in small Team\n \n- SAML SSO\n \n- Advanced security & controls\n \n- Custom contract\n \n- Unlimited Version history\n\nFor more informations:\n\nhttps://www.notion.so/pricing"
+  - text: "Company\n\n- Contact the sales team for the price\n \n- All the features of the small team\n \n- SAML SSO\n \n- Advanced security & controls\n \n- Custom contract\n \n- Unlimited version history\n\nFor more information:\n\nhttps://www.notion.so/pricing"
 
   utter_instructions_remove_account1:
   - text: "Go to -Setting & Members- and click -My account- at the top of the sidebar."
@@ -136,31 +136,31 @@ responses:
   - text: "To create a new page click on +Add a page, in the left menu bar."
 
   utter_tutorial_new_page2:
-  - text: "Now, a new, blank page is created. Add a title to the line untitled and press enter."
+  - text: "Now a new, blank page is created. Add a title to the line untitled and press enter."
 
   utter_tutorial_new_page3:
   - text: "Your page is now created and you can fill it with your personal content! If you need more information please visit https://www.notion.so/help/guides/creating-a-page!"
 
   utter_tutorial_structure1:
-  - text: "Did you know that notion is structured in blocks? You can see am overview when you type a slash."
+  - text: "Did you know that notion is structured in blocks? You can see an overview when you type a slash."
 
   utter_tutorial_structure2:
   - text: "Why don't you try to use some blocks by yourself?"
 
   utter_tutorial_structure3:
-  - text: "To do so click on an element in the list, which appears after you type the slash."
+  - text: "To do so, click on an element in the list, which appears after you type the slash."
 
   utter_tutorial_structure4:
-  - text: "You need more information about the structure? I reccomend to visit https://www.notion.so/help/what-is-a-block!"
+  - text: "You need more information about the structure? I recommend a visit at https://www.notion.so/help/what-is-a-block!"
 
   utter_tutorial_templates1:
-  - text: "There are two ways for using a template:"
+  - text: "There are two ways to use a template:"
 
   utter_tutorial_templates2:
   - text: "1. You click on templates in the left menu bar."
 
   utter_tutorial_templates3:
-  - text: "2. While creating a new page, you can choose templates after you choose your title."
+  - text: "2. While creating a new page, you can choose templates after you chose your title."
 
   utter_tutorial_templates4:
   - text: "There are free and paid templates. You can choose them in the template gallery on https://www.notion.so/templates!"
@@ -193,10 +193,10 @@ responses:
   - text: "1. Image\n \n2. Web bookmark\n \n3. Video\n \n4. Audio\n \n5. Code\n \n6. File"
 
   utter_information_media5:
-  - text: "If you need more information on how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
+  - text: "If you need more information how to use media, please pay a visit to https://www.notion.so/help/images-files-and-media!"
 
   utter_embeds:
-  - text: "When you want to embed a PDF or another file from an external programm, follow the following steps:\n\n1. Click on the Notion Page where the external file should appear.\n \n2. For example type: /pdf\n \nto bring up the option to embed a external file.\n \nFor pdf you can substitute any file."
+  - text: "When you want to embed a PDF or another file from an external programm, follow the following steps:\n\n1. Click on the Notion Page where the external file should appear.\n \n2. For example type: /pdf to bring up the option to embed a external file.\n \nFor pdf you can substitute any file."
 
   utter_use_text:
   - text: "To use text ✒️, you need to type / and select the Text-Option in Notion. After that, you can write whatever you want. \n\n If you want to format your text, you need to highlight it or right click on it. Then you'll see options like bold, italic and more."
@@ -358,7 +358,7 @@ responses:
   - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Block equation-!"
 
   utter_overview_breadcrumb1:
-  - text: "You want to show where you are on the page? Then use the breadcrumbs!"
+  - text: "You want to see where you are on the page? Then use the breadcrumbs!"
 
   utter_overview_breadcrumb2:
   - text: "Go to your page and type a slash. Scroll down until you reach the advanced blocks. Click on -Breadcrumbs-!"
